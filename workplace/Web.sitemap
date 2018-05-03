@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<siteMap xmlns="http://schemas.microsoft.com/AspNet/SiteMap-File-1.0" >
+  <siteMapNode url="" title="网站管理"  description="">
+    <siteMapNode url="admin/MainPage/Default.aspx" title="首页"  description="欢迎进入管理后台" />
+    <siteMapNode url="~/admin/UserManage/Default.aspx" title="用户管理"  description="">
+      <siteMapNode url="~/admin/UserManage/Action.aspx" title="修改"  description="" />
+      <siteMapNode url="~/admin/UserManage/Action.aspx?type=add" title="添加"  description="" />
+      <siteMapNode url="~/admin/UserManage/detial.aspx" title="详细信息"  description="" />
+      <siteMapNode url="~/admin/UserManage/ModfyPass.aspx" title="修改密码"  description="" />
+
+    </siteMapNode>
+    <siteMapNode url="~/admin/MainPage/welcome.aspx" title="欢迎"  description="" />
+    <siteMapNode url="~/admin/CategoryManage/Description.aspx" title="内容修改"  description=""/>
+    <siteMapNode url="~/admin/ArticlesManage/Default.aspx" title="内容管理"  description="">
+      <siteMapNode url="~/admin/ArticlesManage/Action.aspx" title="修改"  description="" />
+      <siteMapNode url="~/admin/ArticlesManage/Action.aspx?type=add" title="添加"  description="" />
+    </siteMapNode>
+
+    <siteMapNode url="~/admin/MsgManage/Default.aspx" title="留言管理"  description="">
+      <siteMapNode url="~/admin/MsgManage/Action.aspx" title="留言详情"  description="" />
+    </siteMapNode>
+
+    <siteMapNode url="~/admin/ProductsManage/Default.aspx" title="产品管理"  description="">
+      <siteMapNode url="~/admin/ProductsManage/Action.aspx" title="产品详情"  description="" />
+    </siteMapNode>
+
+    <siteMapNode url="~/admin/OrdersManage/Default.aspx" title="订单管理"  description="">
+      <siteMapNode url="~/admin/OrdersManage/Action.aspx" title="订单详情"  description="" />
+    <siteMapNode url="~/admin/OrdersManage/TotalReview.aspx" title="线路统计"  description="" />
+    </siteMapNode>
+    <siteMapNode url="~/admin/BoatHotelManage/Default.aspx" title="游轮酒店"  description="">
+      <siteMapNode url="~/admin/BoatHotelManage/Action.aspx" title="酒店信息"  description="" />
+    </siteMapNode>
+
+    <siteMapNode url="~/admin/TravalsPriceManage/Default.aspx" title="更新线路价格"  description="">
+    </siteMapNode>
+
+    <siteMapNode url="~/admin/LinkManage/Default.aspx" title="友情链接"  description="">
+      <siteMapNode url="~/admin/LinkManage/Action.aspx" title="链接详情"  description="" />
+    </siteMapNode>
+
+    <siteMapNode url="~/admin/LinesReViewManage/Default.aspx" title="回访列表"  description="">
+      <siteMapNode url="~/admin/LinesReViewManage/Action.aspx" title="添加回访"  description="" />
+    </siteMapNode>
+
+
+  </siteMapNode>
+</siteMap>

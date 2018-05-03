@@ -1,0 +1,38 @@
+/* artDialog none.css
+ * Date: 2010-10-13
+ */
+
+.aui_none .aui_td_title, .aui_none .aui_td_buttons button { font:12px '宋体','新宋体', Arial; }
+.aui_none .aui_content_table { min-width:9em; background:#FFF;}
+.aui_none .aui_close{width:12px; height:12px; background-image:url(none/cross.gif); background-repeat:no-repeat; }
+.aui_none .aui_title_wrap { height:100%; position:relative;}
+
+.aui_none .art_focus .aui_content_table, .aui_none .aui_title_wrap, .aui_none .aui_close:hover {}
+.aui_none .aui_title { height:30px; font-size:14px; line-height:30px; padding:0 30px 0 0px; background-color:#fff; color:#1196FF; border-left:10px solid #FFF;border-right:10px solid #FFF;}
+.aui_none .art_move .aui_title { color:#1196FF;}
+.aui_none .art_focus .aui_title { background-color:#fff; border-bottom:1px solid #D6D6D6 }/*标题底色*/
+.aui_none .aui_close { width:13px; height:13px; _font-size:0; *line-height:0; top:8px; right:8px; text-align:left; text-indent:-9999em; overflow:hidden;background-position:-3px 0px; }
+.aui_none .art_focus .aui_close { border-color:#214FA3; }
+.aui_none .aui_close:hover {background-position:-3px -47px;cursor:pointer; }
+.aui_none .aui_close:active {background-position:-3px -47px; -moz-box-shadow: none; -webkit-box-shadow: none; box-shadow: none; }
+
+.aui_none .aui_left_top,.aui_none .aui_right_top,.aui_none .aui_right_bottom,.aui_none .aui_left_bottom{background-color:#4BB1FF;width:5px; height:5px;}
+
+.aui_none .aui_buttons_wrap { background-color:#F6F6F6; border-top:solid 1px #eeeeee; }
+.aui_none .aui_buttons_wrap span, .aui_none .aui_buttons_wrap button { background-color:transparent; background-image:url(none/btns.png); background-repeat:no-repeat; }
+.aui_none .aui_buttons_wrap span { padding:0 0 0 5px; overflow:hidden; background-position:left -42px; }
+.aui_none .aui_buttons_wrap button { height:21px; line-height:21px; padding:0 10px 0 5px; max-width:200px;border:none 0; background-position:right 0; }
+.aui_none .aui_buttons_wrap span:hover { background-position:left -63px; }
+.aui_none .aui_buttons_wrap span:hover button { background-position:right -21px; }
+html:hover .aui_none .aui_buttons_wrap button:focus {outline:none 0;}
+
+
+.aui_none .aui_top, .aui_none .aui_right, .aui_none .aui_bottom, .aui_none .aui_left {background-color:#4BB1FF;}
+
+.aui_none .art_move .aui_bottom { -moz-box-shadow:none; -webkit-box-shadow:none; box-shadow:none; }
+
+.aui_none .aui_icon { width:48px; height:48px; margin:10px 0 10px 10px; background-image:url(none/icons.png); background-repeat:no-repeat;}
+.aui_none .art_alert { background-position:0 -96px; }
+.aui_none .art_succeed { background-position:0 0;}
+.aui_none .art_error { background-position:0 -48px; }
+.aui_none .art_confirm { margin-right:10px; width:48px; height:48px; background-position:0 -144px; }

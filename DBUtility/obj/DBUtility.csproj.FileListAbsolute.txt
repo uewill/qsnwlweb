@@ -1,0 +1,23 @@
+C:\Documents and Settings\Administrator\桌面\text\DBUtility\bin\Debug\TFXK.DBUtility.dll
+C:\Documents and Settings\Administrator\桌面\text\DBUtility\bin\Debug\TFXK.DBUtility.pdb
+C:\Documents and Settings\Administrator\桌面\text\DBUtility\obj\Debug\ResolveAssemblyReference.cache
+C:\Documents and Settings\Administrator\桌面\text\DBUtility\obj\Debug\TFXK.DBUtility.dll
+C:\Documents and Settings\Administrator\桌面\text\DBUtility\obj\Debug\TFXK.DBUtility.pdb
+D:\workplace\DevWebSystem\DEV Access后台 V1.1\text\DBUtility\bin\Debug\TFXK.DBUtility.dll
+D:\workplace\DevWebSystem\DEV Access后台 V1.1\text\DBUtility\bin\Debug\TFXK.DBUtility.pdb
+D:\workplace\DevWebSystem\DEV Access后台 V1.1\text\DBUtility\obj\Debug\ResolveAssemblyReference.cache
+D:\workplace\DevWebSystem\DEV Access后台 V1.1\text\DBUtility\obj\Debug\TFXK.DBUtility.dll
+D:\workplace\DevWebSystem\DEV Access后台 V1.1\text\DBUtility\obj\Debug\TFXK.DBUtility.pdb
+D:\workplace\text\DBUtility\bin\Debug\TFXK.DBUtility.dll
+D:\workplace\text\DBUtility\bin\Debug\TFXK.DBUtility.pdb
+D:\workplace\text\DBUtility\obj\Debug\ResolveAssemblyReference.cache
+D:\workplace\text\DBUtility\obj\Debug\TFXK.DBUtility.dll
+D:\workplace\text\DBUtility\obj\Debug\TFXK.DBUtility.pdb
+D:\workplace\DevWebSystem\text\DBUtility\bin\Debug\TFXK.DBUtility.dll
+D:\workplace\DevWebSystem\text\DBUtility\bin\Debug\TFXK.DBUtility.pdb
+D:\workplace\DevWebSystem\text\DBUtility\obj\Debug\ResolveAssemblyReference.cache
+D:\workplace\DevWebSystem\text\DBUtility\obj\Debug\TFXK.DBUtility.dll
+D:\workplace\DevWebSystem\text\DBUtility\obj\Debug\TFXK.DBUtility.pdb
+D:\workplace\DevWebSystem\text\DBUtility\bin\Release\TFXK.DBUtility.dll
+D:\workplace\DevWebSystem\text\DBUtility\obj\Release\ResolveAssemblyReference.cache
+D:\workplace\DevWebSystem\text\DBUtility\obj\Release\TFXK.DBUtility.dll

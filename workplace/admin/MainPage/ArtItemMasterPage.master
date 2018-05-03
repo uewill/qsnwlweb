@@ -1,0 +1,51 @@
+﻿<%@ Master Language="C#" AutoEventWireup="true" CodeFile="ArtItemMasterPage.master.cs"
+    Inherits="admin_MainPage_ArtItemMasterPage" %>
+
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head runat="server">
+    <link href="../css/validator.css" rel="stylesheet" type="text/css" />
+    <link href="../css/main.css" rel="stylesheet" type="text/css" />
+
+    <script src="../js/jquery.js" type="text/javascript" language="javascript"></script>
+
+    <script src="../js/formValidator.js" type="text/javascript" language="javascript"></script>
+
+    <script type="text/javascript" src="../../ArtDialog/artDialog.min.js" charset="utf-8"></script>
+
+    <script> 
+(function($){
+	// 改变默认配置
+	var d = $.dialog.defaults;
+	// 预缓存皮肤，数组第一个为默认皮肤
+	d.skin = ['aero'];
+	// 是否开启特效
+    //d.effect = true;
+	// 指定超过此面积的对话框拖动的时候用替身
+	//d.showTemp = 100000;
+	
+})(art);
+    </script>
+
+    <script language="javascript" type="text/javascript">
+    $(document).ready(function() {
+        // 添加表格背景色
+        $(".maincon tr").addClass("mouseout");
+        
+        // 鼠标经过时改变表格背景色
+        $(".maincon tr").hover(function(){
+            $(this).addClass("mouseover");
+        }, function() {
+            $(this).removeClass("mouseover");
+        });});
+    </script>
+
+</head>
+<body style="background-image: none; background-color: transparent; margin-top: 0px;
+    padding-top: 0px; margin-left: 0px; margin-right: 0px;">
+    <form id="form1" runat="server">
+    <asp:ContentPlaceHolder ID="ContentPlaceHolder1" runat="server">
+    </asp:ContentPlaceHolder>
+    </form>
+</body>
+</html>

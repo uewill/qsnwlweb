@@ -1,0 +1,3 @@
+D:\GitNowWork\code\Model\bin\Release\TFXK.Model.dll
+D:\GitNowWork\code\Model\obj\Release\Model.csproj.CoreCompileInputs.cache
+D:\GitNowWork\code\Model\obj\Release\TFXK.Model.dll

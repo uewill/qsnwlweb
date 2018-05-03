@@ -1,0 +1,23 @@
+C:\Documents and Settings\Administrator\桌面\text\Model\bin\Debug\TFXK.Model.dll
+C:\Documents and Settings\Administrator\桌面\text\Model\bin\Debug\TFXK.Model.pdb
+C:\Documents and Settings\Administrator\桌面\text\Model\obj\Debug\ResolveAssemblyReference.cache
+C:\Documents and Settings\Administrator\桌面\text\Model\obj\Debug\TFXK.Model.dll
+C:\Documents and Settings\Administrator\桌面\text\Model\obj\Debug\TFXK.Model.pdb
+D:\workplace\DevWebSystem\DEV Access后台 V1.1\text\Model\bin\Debug\TFXK.Model.dll
+D:\workplace\DevWebSystem\DEV Access后台 V1.1\text\Model\bin\Debug\TFXK.Model.pdb
+D:\workplace\DevWebSystem\DEV Access后台 V1.1\text\Model\obj\Debug\ResolveAssemblyReference.cache
+D:\workplace\DevWebSystem\DEV Access后台 V1.1\text\Model\obj\Debug\TFXK.Model.dll
+D:\workplace\DevWebSystem\DEV Access后台 V1.1\text\Model\obj\Debug\TFXK.Model.pdb
+D:\workplace\text\Model\bin\Debug\TFXK.Model.dll
+D:\workplace\text\Model\bin\Debug\TFXK.Model.pdb
+D:\workplace\text\Model\obj\Debug\ResolveAssemblyReference.cache
+D:\workplace\text\Model\obj\Debug\TFXK.Model.dll
+D:\workplace\text\Model\obj\Debug\TFXK.Model.pdb
+D:\workplace\DevWebSystem\text\Model\bin\Debug\TFXK.Model.dll
+D:\workplace\DevWebSystem\text\Model\bin\Debug\TFXK.Model.pdb
+D:\workplace\DevWebSystem\text\Model\obj\Debug\ResolveAssemblyReference.cache
+D:\workplace\DevWebSystem\text\Model\obj\Debug\TFXK.Model.dll
+D:\workplace\DevWebSystem\text\Model\obj\Debug\TFXK.Model.pdb
+D:\workplace\DevWebSystem\text\Model\bin\Release\TFXK.Model.dll
+D:\workplace\DevWebSystem\text\Model\obj\Release\ResolveAssemblyReference.cache
+D:\workplace\DevWebSystem\text\Model\obj\Release\TFXK.Model.dll

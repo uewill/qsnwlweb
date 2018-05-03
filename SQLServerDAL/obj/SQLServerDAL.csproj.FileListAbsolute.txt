@@ -1,0 +1,14 @@
+C:\Documents and Settings\Administrator\桌面\text\SQLServerDAL\bin\Debug\TFXK.SQLServerDAL.dll
+C:\Documents and Settings\Administrator\桌面\text\SQLServerDAL\bin\Debug\TFXK.SQLServerDAL.pdb
+C:\Documents and Settings\Administrator\桌面\text\SQLServerDAL\bin\Debug\CodematicDemo.IDAL.dll
+C:\Documents and Settings\Administrator\桌面\text\SQLServerDAL\bin\Debug\LTP.Common.dll
+C:\Documents and Settings\Administrator\桌面\text\SQLServerDAL\bin\Debug\TFXK.DBUtility.dll
+C:\Documents and Settings\Administrator\桌面\text\SQLServerDAL\bin\Debug\TFXK.Model.dll
+C:\Documents and Settings\Administrator\桌面\text\SQLServerDAL\bin\Debug\TFXK.Model.pdb
+C:\Documents and Settings\Administrator\桌面\text\SQLServerDAL\bin\Debug\CodematicDemo.IDAL.pdb
+C:\Documents and Settings\Administrator\桌面\text\SQLServerDAL\bin\Debug\TFXK.DBUtility.pdb
+C:\Documents and Settings\Administrator\桌面\text\SQLServerDAL\obj\Debug\ResolveAssemblyReference.cache
+C:\Documents and Settings\Administrator\桌面\text\SQLServerDAL\obj\Debug\TFXK.SQLServerDAL.dll
+C:\Documents and Settings\Administrator\桌面\text\SQLServerDAL\obj\Debug\TFXK.SQLServerDAL.pdb
+D:\workplace\DEV Access后台 V1.1\text\SQLServerDAL\obj\Debug\ResolveAssemblyReference.cache
+D:\workplace\DEV Access后台 V1.1\text\SQLServerDAL\obj\Debug\TFXK.SQLServerDAL.pdb

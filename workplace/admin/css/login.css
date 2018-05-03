@@ -1,0 +1,126 @@
+﻿@charset "utf-8";
+/* CSS Document */
+
+body {
+	padding:0;
+	margin:0;
+	background:url(../images/bj.jpg) repeat-x top;
+	color:#000000;
+	font:"宋体";
+	font-size:12px;
+}
+li {
+	list-style-type:none;
+}
+div, p, h1, h2, h3, ul, img {
+	padding:0px;
+	margin:0px;
+	border:0px;
+}
+a:link {
+	color: #000;
+	text-decoration: none;
+}
+a:visited {
+	color: #000;
+	text-decoration: none;
+}
+a:active {
+	color:#666666;
+	text-decoration: none;
+}
+a:hover {
+	color:#666666;
+	text-decoration: none;
+}
+.login {
+	width:465px;
+	height:234px;
+	background:url(../images/loginbj.gif);
+	margin:0 auto;
+	margin-top:20%;
+	position:relative;
+}
+.top {
+	width:320px;
+	height:53px;
+	background:url(../images/top.gif);
+	margin:0 auto;
+}
+.text1 {
+	width:150px;
+	height:152px;
+	border-right:1px solid #b8c2cb;
+	float:left;
+	position:relative;
+}
+.suo {
+	width:144px;
+	height:165px;
+	background:url(../images/suo.gif);
+	position:absolute;
+	z-index:10;
+	left: -31px;
+	top: 64px;
+}
+.bottom {
+	width:351px;
+	height:50px;
+	background:url(../images/bottom.gif);
+	position:absolute;
+	z-index:10;
+	left: 113px;
+	top: 232px;
+}
+.text {
+	float:left;
+	width:226px;
+	height:137px;
+	padding-top:15px;
+	padding-left:25px;
+	background:url(../images/textbj.gif);
+	border-left:1px solid #ecf5fe;
+	border-right:1px solid #b8c2cb;
+}
+.text dt {
+	height:30px;
+	line-height:30px;
+}
+.text dt input {
+	height:15px;
+	vertical-align:middle;
+	width:140px;
+}
+.text dt em {
+	height:30px;
+	line-height:30px;
+}
+.text dt span {
+	font-family:"微软雅黑", Arial, Helvetica, sans-serif;
+	font-size:14px;
+	height:30px;
+	line-height:30px;
+}
+.text2 {
+	width:50px;
+	height:152px;
+	border-left:1px solid #ecf5fe;
+	float:left;
+}
+#bottomNav {
+	text-align:center;
+	font: normal 12px Verdana, Arial, Helvetica, sans-serif;
+	font-size:12px;
+	line-height:30px;
+	clear:both;
+	height:30px;
+	background:url(../images/footer.gif);
+	z-index:999;
+	position:fixed;
+	bottom:0;
+	left:0;
+	width:100%;
+	_position:absolute; /* for IE6 */
+_top: expression(documentElement.scrollTop + documentElement.clientHeight-this.offsetHeight); /* for IE6 */
+	overflow:visible;
+}

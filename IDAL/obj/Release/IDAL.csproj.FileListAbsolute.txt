@@ -1,0 +1,5 @@
+D:\GitNowWork\code\IDAL\bin\Release\CodematicDemo.IDAL.dll
+D:\GitNowWork\code\IDAL\bin\Release\TFXK.Model.dll
+D:\GitNowWork\code\IDAL\obj\Release\IDAL.csprojResolveAssemblyReference.cache
+D:\GitNowWork\code\IDAL\obj\Release\IDAL.csproj.CoreCompileInputs.cache
+D:\GitNowWork\code\IDAL\obj\Release\CodematicDemo.IDAL.dll

@@ -1,0 +1,32 @@
+C:\Documents and Settings\Administrator\桌面\text\IDAL\bin\Debug\CodematicDemo.IDAL.dll
+C:\Documents and Settings\Administrator\桌面\text\IDAL\bin\Debug\CodematicDemo.IDAL.pdb
+C:\Documents and Settings\Administrator\桌面\text\IDAL\bin\Debug\TFXK.Model.dll
+C:\Documents and Settings\Administrator\桌面\text\IDAL\bin\Debug\TFXK.Model.pdb
+C:\Documents and Settings\Administrator\桌面\text\IDAL\obj\Debug\ResolveAssemblyReference.cache
+C:\Documents and Settings\Administrator\桌面\text\IDAL\obj\Debug\CodematicDemo.IDAL.dll
+C:\Documents and Settings\Administrator\桌面\text\IDAL\obj\Debug\CodematicDemo.IDAL.pdb
+D:\workplace\DevWebSystem\DEV Access后台 V1.1\text\IDAL\bin\Debug\CodematicDemo.IDAL.dll
+D:\workplace\DevWebSystem\DEV Access后台 V1.1\text\IDAL\bin\Debug\CodematicDemo.IDAL.pdb
+D:\workplace\DevWebSystem\DEV Access后台 V1.1\text\IDAL\bin\Debug\TFXK.Model.dll
+D:\workplace\DevWebSystem\DEV Access后台 V1.1\text\IDAL\bin\Debug\TFXK.Model.pdb
+D:\workplace\DevWebSystem\DEV Access后台 V1.1\text\IDAL\obj\Debug\ResolveAssemblyReference.cache
+D:\workplace\DevWebSystem\DEV Access后台 V1.1\text\IDAL\obj\Debug\CodematicDemo.IDAL.dll
+D:\workplace\DevWebSystem\DEV Access后台 V1.1\text\IDAL\obj\Debug\CodematicDemo.IDAL.pdb
+D:\workplace\text\IDAL\bin\Debug\CodematicDemo.IDAL.dll
+D:\workplace\text\IDAL\bin\Debug\CodematicDemo.IDAL.pdb
+D:\workplace\text\IDAL\bin\Debug\TFXK.Model.dll
+D:\workplace\text\IDAL\bin\Debug\TFXK.Model.pdb
+D:\workplace\text\IDAL\obj\Debug\ResolveAssemblyReference.cache
+D:\workplace\text\IDAL\obj\Debug\CodematicDemo.IDAL.dll
+D:\workplace\text\IDAL\obj\Debug\CodematicDemo.IDAL.pdb
+D:\workplace\DevWebSystem\text\IDAL\bin\Debug\CodematicDemo.IDAL.dll
+D:\workplace\DevWebSystem\text\IDAL\bin\Debug\CodematicDemo.IDAL.pdb
+D:\workplace\DevWebSystem\text\IDAL\bin\Debug\TFXK.Model.dll
+D:\workplace\DevWebSystem\text\IDAL\bin\Debug\TFXK.Model.pdb
+D:\workplace\DevWebSystem\text\IDAL\obj\Debug\ResolveAssemblyReference.cache
+D:\workplace\DevWebSystem\text\IDAL\obj\Debug\CodematicDemo.IDAL.dll
+D:\workplace\DevWebSystem\text\IDAL\obj\Debug\CodematicDemo.IDAL.pdb
+D:\workplace\DevWebSystem\text\IDAL\bin\Release\CodematicDemo.IDAL.dll
+D:\workplace\DevWebSystem\text\IDAL\bin\Release\TFXK.Model.dll
+D:\workplace\DevWebSystem\text\IDAL\obj\Release\ResolveAssemblyReference.cache
+D:\workplace\DevWebSystem\text\IDAL\obj\Release\CodematicDemo.IDAL.dll

@@ -1,0 +1,76 @@
+D:\公司网站\CDSFKJ\Common\bin\Debug\CDSFKJ.Common.dll
+D:\公司网站\CDSFKJ\Common\bin\Debug\CDSFKJ.Common.pdb
+D:\公司网站\CDSFKJ\Common\obj\Debug\ResolveAssemblyReference.cache
+D:\公司网站\CDSFKJ\Common\obj\Debug\CDSFKJ.Common.dll
+D:\公司网站\CDSFKJ\Common\obj\Debug\CDSFKJ.Common.pdb
+D:\中建凯德装饰\All\CDSFKJ\Common\bin\Debug\CDSFKJ.Common.dll
+D:\中建凯德装饰\All\CDSFKJ\Common\bin\Debug\CDSFKJ.Common.pdb
+D:\中建凯德装饰\All\CDSFKJ\Common\obj\Debug\ResolveAssemblyReference.cache
+D:\中建凯德装饰\All\CDSFKJ\Common\obj\Debug\CDSFKJ.Common.dll
+D:\中建凯德装饰\All\CDSFKJ\Common\obj\Debug\CDSFKJ.Common.pdb
+D:\中建凯德装饰\CDSFKJ\Common\bin\Debug\CDSFKJ.Common.dll
+D:\中建凯德装饰\CDSFKJ\Common\bin\Debug\CDSFKJ.Common.pdb
+D:\中建凯德装饰\CDSFKJ\Common\obj\Debug\ResolveAssemblyReference.cache
+D:\中建凯德装饰\CDSFKJ\Common\obj\Debug\CDSFKJ.Common.dll
+D:\中建凯德装饰\CDSFKJ\Common\obj\Debug\CDSFKJ.Common.pdb
+D:\中建凯德装饰\CDSFKJ\Common\bin\Release\CDSFKJ.Common.dll
+D:\中建凯德装饰\CDSFKJ\Common\bin\Release\CDSFKJ.Common.pdb
+D:\中建凯德装饰\CDSFKJ\Common\obj\Release\ResolveAssemblyReference.cache
+D:\中建凯德装饰\CDSFKJ\Common\obj\Release\CDSFKJ.Common.dll
+D:\中建凯德装饰\CDSFKJ\Common\obj\Release\CDSFKJ.Common.pdb
+F:\项目\DoNet\公司\景尚\CDSFKJ\Common\bin\Debug\CDSFKJ.Common.dll
+F:\项目\DoNet\公司\景尚\CDSFKJ\Common\bin\Debug\CDSFKJ.Common.pdb
+F:\项目\DoNet\公司\景尚\CDSFKJ\Common\bin\Debug\System.Web.Extensions.dll
+F:\项目\DoNet\公司\景尚\CDSFKJ\Common\obj\Debug\ResolveAssemblyReference.cache
+F:\项目\DoNet\公司\景尚\CDSFKJ\Common\obj\Debug\CDSFKJ.Common.dll
+F:\项目\DoNet\公司\景尚\CDSFKJ\Common\obj\Debug\CDSFKJ.Common.pdb
+D:\景尚科技\CDSFKJ\Common\bin\Release\CDSFKJ.Common.dll
+D:\景尚科技\CDSFKJ\Common\bin\Release\CDSFKJ.Common.pdb
+D:\景尚科技\CDSFKJ\Common\obj\Release\ResolveAssemblyReference.cache
+D:\景尚科技\CDSFKJ\Common\obj\Release\CDSFKJ.Common.dll
+D:\景尚科技\CDSFKJ\Common\obj\Release\CDSFKJ.Common.pdb
+D:\景尚科技\CDSFKJ\Common\bin\Debug\CDSFKJ.Common.dll
+D:\景尚科技\CDSFKJ\Common\bin\Debug\CDSFKJ.Common.pdb
+D:\景尚科技\CDSFKJ\Common\obj\Debug\ResolveAssemblyReference.cache
+D:\景尚科技\CDSFKJ\Common\obj\Debug\CDSFKJ.Common.dll
+D:\景尚科技\CDSFKJ\Common\obj\Debug\CDSFKJ.Common.pdb
+D:\景尚科技\景尚\CDSFKJ\Common\bin\Release\CDSFKJ.Common.dll
+D:\景尚科技\景尚\CDSFKJ\Common\bin\Release\CDSFKJ.Common.pdb
+D:\景尚科技\景尚\CDSFKJ\Common\obj\Release\ResolveAssemblyReference.cache
+D:\景尚科技\景尚\CDSFKJ\Common\obj\Release\CDSFKJ.Common.dll
+D:\景尚科技\景尚\CDSFKJ\Common\obj\Release\CDSFKJ.Common.pdb
+D:\workplace\景尚\CDSFKJ\Common\bin\Release\CDSFKJ.Common.dll
+D:\workplace\景尚\CDSFKJ\Common\bin\Release\CDSFKJ.Common.pdb
+D:\workplace\景尚\CDSFKJ\Common\obj\Release\ResolveAssemblyReference.cache
+D:\workplace\景尚\CDSFKJ\Common\obj\Release\CDSFKJ.Common.dll
+D:\workplace\景尚\CDSFKJ\Common\obj\Release\CDSFKJ.Common.pdb
+D:\workplace\DevWebSystem\Common\bin\Debug\TFXK.Common.dll
+D:\workplace\DevWebSystem\Common\bin\Debug\TFXK.Common.pdb
+D:\workplace\DevWebSystem\Common\obj\Debug\ResolveAssemblyReference.cache
+D:\workplace\DevWebSystem\Common\obj\Debug\TFXK.Common.dll
+D:\workplace\DevWebSystem\Common\obj\Debug\TFXK.Common.pdb
+C:\Documents and Settings\Administrator\桌面\text\Common\bin\Debug\TFXK.Common.dll
+C:\Documents and Settings\Administrator\桌面\text\Common\bin\Debug\TFXK.Common.pdb
+C:\Documents and Settings\Administrator\桌面\text\Common\obj\Debug\ResolveAssemblyReference.cache
+C:\Documents and Settings\Administrator\桌面\text\Common\obj\Debug\TFXK.Common.dll
+C:\Documents and Settings\Administrator\桌面\text\Common\obj\Debug\TFXK.Common.pdb
+D:\workplace\DevWebSystem\DEV Access后台 V1.1\text\Common\bin\Debug\TFXK.Common.dll
+D:\workplace\DevWebSystem\DEV Access后台 V1.1\text\Common\bin\Debug\TFXK.Common.pdb
+D:\workplace\DevWebSystem\DEV Access后台 V1.1\text\Common\obj\Debug\ResolveAssemblyReference.cache
+D:\workplace\DevWebSystem\DEV Access后台 V1.1\text\Common\obj\Debug\TFXK.Common.dll
+D:\workplace\DevWebSystem\DEV Access后台 V1.1\text\Common\obj\Debug\TFXK.Common.pdb
+D:\workplace\text\Common\bin\Debug\TFXK.Common.dll
+D:\workplace\text\Common\bin\Debug\TFXK.Common.pdb
+D:\workplace\text\Common\obj\Debug\ResolveAssemblyReference.cache
+D:\workplace\text\Common\obj\Debug\TFXK.Common.dll
+D:\workplace\text\Common\obj\Debug\TFXK.Common.pdb
+D:\workplace\DevWebSystem\text\Common\bin\Debug\TFXK.Common.dll
+D:\workplace\DevWebSystem\text\Common\bin\Debug\TFXK.Common.pdb
+D:\workplace\DevWebSystem\text\Common\obj\Debug\ResolveAssemblyReference.cache
+D:\workplace\DevWebSystem\text\Common\obj\Debug\TFXK.Common.dll
+D:\workplace\DevWebSystem\text\Common\obj\Debug\TFXK.Common.pdb
+D:\workplace\DevWebSystem\text\Common\bin\Release\TFXK.Common.dll
+D:\workplace\DevWebSystem\text\Common\bin\Release\TFXK.Common.pdb
+D:\workplace\DevWebSystem\text\Common\obj\Release\ResolveAssemblyReference.cache
+D:\workplace\DevWebSystem\text\Common\obj\Release\TFXK.Common.dll
+D:\workplace\DevWebSystem\text\Common\obj\Release\TFXK.Common.pdb

@@ -1,0 +1,4 @@
+D:\GitNowWork\code\DBUtility\bin\Release\TFXK.DBUtility.dll
+D:\GitNowWork\code\DBUtility\obj\Release\DBUtility.csprojResolveAssemblyReference.cache
+D:\GitNowWork\code\DBUtility\obj\Release\DBUtility.csproj.CoreCompileInputs.cache
+D:\GitNowWork\code\DBUtility\obj\Release\TFXK.DBUtility.dll

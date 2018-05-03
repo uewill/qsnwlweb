@@ -1,0 +1,235 @@
+
+/* CSS Document */
+body
+{
+    padding: 0px;
+    margin: 0px;
+    font-size: 12px;
+    font-family: @宋体;
+}
+li
+{
+    list-style-type: none;
+}
+div, p, h1, h2, h3, ul, img
+{
+    padding: 0px;
+    margin: 0px;
+    border: 0px;
+}
+a:link
+{
+    color: #000;
+    text-decoration: none;
+}
+a:visited
+{
+    color: #000;
+    text-decoration: none;
+}
+a:active
+{
+    color: #666666;
+    text-decoration: none;
+}
+a:hover
+{
+    color: #666666;
+    text-decoration: none;
+}
+.top
+{
+    height: 60px;
+    width: 100%;
+}
+.toptitle1
+{
+    width: 300px;
+    height: 67px;
+    float: left;
+}
+.toptitle2
+{
+    height: 67px;
+    float: left;
+}
+.toptitle3
+{
+    height: 67px;
+    float: right;
+    text-align: right;
+}
+.topan
+{
+    width: 52px;
+    height: 9px;
+    margin: 0 auto;
+    margin-top: 3px;
+    margin-bottom: 3px;
+}
+.center
+{
+    position: relative;
+}
+#bottomNav
+{
+    text-align: center;
+    font: normal 12px Verdana, Arial, Helvetica, sans-serif;
+    font-size: 12px;
+    line-height: 30px;
+    clear: both;
+    height: 30px;
+    background: url(../images/footer.gif);
+    z-index: 999;
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    width: 100%; /*	_position:absolute;      _top: expression(documentElement.scrollTop + documentElement.clientHeight-this.offsetHeight);*/
+    overflow: visible;
+}
+.maincon tr td
+{
+    font-size: 12px;
+}
+.maincon th
+{
+    background-image: url(../images/bg.gif);
+    font-family: Arial;
+    font-size: 12px;
+}
+.maincon tr
+{
+    line-height: 25px;
+}
+.editTab tr td
+{
+    line-height: 18px;
+}
+.category tr
+{
+    line-height: 25px;
+}
+.category
+{
+    border: 1px solid #ccc;
+    border-collapse: collapse;
+}
+.mouseout
+{
+    background-color: #FFF;
+}
+.mouseover
+{
+    background-color: #c1ebff;
+}
+.block
+{
+    display: block;
+    padding-bottom: 5px;
+}
+.none
+{
+    display: none;
+}
+/*主页顶部样式*/
+.top table, tr, td
+{
+    padding: 0px;
+    margin: 0px;
+}
+#tpa
+{
+    color: #009933;
+    margin: 0px;
+    padding: 0px;
+    float: right;
+    padding-right: 10px;
+}
+
+#tpa dd
+{
+    margin: 0px;
+    padding: 0px;
+    float: left;
+    margin-right: 2px;
+}
+
+#tpa dd.ditem
+{
+    margin-right: 8px;
+}
+
+div.item
+{
+    text-align: center;
+    background: url(../images/topitembg.gif) 0px 3px no-repeat;
+    width: 82px;
+    height: 26px;
+    line-height: 26px;
+}
+
+.itemsel
+{
+    width: 80px;
+    text-align: center;
+    background: #154481;
+    border-left: 1px solid #c5f097;
+    border-right: 1px solid #c5f097;
+    border-top: 1px solid #c5f097;
+    height: 26px;
+    line-height: 28px;
+}
+
+*html .itemsel
+{
+    height: 26px;
+    line-height: 26px;
+}
+
+
+
+.item a:link, .item a:visited
+{
+    font-size: 12px;
+    color: #ffffff;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+.itemsel a:hover
+{
+    color: #ffffff;
+    font-weight: bold;
+    border-bottom: 2px solid #E9FC65;
+}
+
+.itemsel a:link, .itemsel a:visited
+{
+    color: #ffffff;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+.itemsel a:hover
+{
+    color: #ffffff;
+    border-bottom: 2px solid #E9FC65;
+}
+
+.rmain
+{
+    padding-left: 10px;
+}
+/*顶部样式结束*/
+
+.otherPros
+{
+    text-align: center;
+    border: solid 1px #CCC;
+}
+.otherPros tr td
+{
+    border: solid 1px #CCC;
+    border-right: none;
+    border-bottom:none;
+}

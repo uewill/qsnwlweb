@@ -1,0 +1,76 @@
+C:\Documents and Settings\Administrator\桌面\text\BLL\bin\Debug\TFXK.BLL.dll
+C:\Documents and Settings\Administrator\桌面\text\BLL\bin\Debug\TFXK.BLL.pdb
+C:\Documents and Settings\Administrator\桌面\text\BLL\bin\Debug\CodematicDemo.IDAL.dll
+C:\Documents and Settings\Administrator\桌面\text\BLL\bin\Debug\LTP.Common.dll
+C:\Documents and Settings\Administrator\桌面\text\BLL\bin\Debug\TFXK.Common.dll
+C:\Documents and Settings\Administrator\桌面\text\BLL\bin\Debug\TFXK.DALFactory.dll
+C:\Documents and Settings\Administrator\桌面\text\BLL\bin\Debug\TFXK.Model.dll
+C:\Documents and Settings\Administrator\桌面\text\BLL\bin\Debug\TFXK.Model.pdb
+C:\Documents and Settings\Administrator\桌面\text\BLL\bin\Debug\TFXK.Common.pdb
+C:\Documents and Settings\Administrator\桌面\text\BLL\bin\Debug\CodematicDemo.IDAL.pdb
+C:\Documents and Settings\Administrator\桌面\text\BLL\bin\Debug\TFXK.DALFactory.pdb
+C:\Documents and Settings\Administrator\桌面\text\BLL\obj\Debug\ResolveAssemblyReference.cache
+C:\Documents and Settings\Administrator\桌面\text\BLL\obj\Debug\TFXK.BLL.dll
+C:\Documents and Settings\Administrator\桌面\text\BLL\obj\Debug\TFXK.BLL.pdb
+D:\workplace\DevWebSystem\DEV Access后台 V1.1\text\BLL\bin\Debug\TFXK.BLL.dll
+D:\workplace\DevWebSystem\DEV Access后台 V1.1\text\BLL\bin\Debug\TFXK.BLL.pdb
+D:\workplace\DevWebSystem\DEV Access后台 V1.1\text\BLL\bin\Debug\CodematicDemo.IDAL.dll
+D:\workplace\DevWebSystem\DEV Access后台 V1.1\text\BLL\bin\Debug\TFXK.Common.dll
+D:\workplace\DevWebSystem\DEV Access后台 V1.1\text\BLL\bin\Debug\TFXK.DALFactory.dll
+D:\workplace\DevWebSystem\DEV Access后台 V1.1\text\BLL\bin\Debug\TFXK.Model.dll
+D:\workplace\DevWebSystem\DEV Access后台 V1.1\text\BLL\bin\Debug\TFXK.OleDbDAL.dll
+D:\workplace\DevWebSystem\DEV Access后台 V1.1\text\BLL\bin\Debug\TFXK.DBUtility.dll
+D:\workplace\DevWebSystem\DEV Access后台 V1.1\text\BLL\bin\Debug\TFXK.Model.pdb
+D:\workplace\DevWebSystem\DEV Access后台 V1.1\text\BLL\bin\Debug\TFXK.Common.pdb
+D:\workplace\DevWebSystem\DEV Access后台 V1.1\text\BLL\bin\Debug\CodematicDemo.IDAL.pdb
+D:\workplace\DevWebSystem\DEV Access后台 V1.1\text\BLL\bin\Debug\TFXK.DALFactory.pdb
+D:\workplace\DevWebSystem\DEV Access后台 V1.1\text\BLL\bin\Debug\TFXK.OleDbDAL.pdb
+D:\workplace\DevWebSystem\DEV Access后台 V1.1\text\BLL\bin\Debug\TFXK.DBUtility.pdb
+D:\workplace\DevWebSystem\DEV Access后台 V1.1\text\BLL\obj\Debug\ResolveAssemblyReference.cache
+D:\workplace\DevWebSystem\DEV Access后台 V1.1\text\BLL\obj\Debug\TFXK.BLL.dll
+D:\workplace\DevWebSystem\DEV Access后台 V1.1\text\BLL\obj\Debug\TFXK.BLL.pdb
+D:\workplace\text\BLL\bin\Debug\TFXK.BLL.dll
+D:\workplace\text\BLL\bin\Debug\TFXK.BLL.pdb
+D:\workplace\text\BLL\bin\Debug\CodematicDemo.IDAL.dll
+D:\workplace\text\BLL\bin\Debug\TFXK.Common.dll
+D:\workplace\text\BLL\bin\Debug\TFXK.DALFactory.dll
+D:\workplace\text\BLL\bin\Debug\TFXK.Model.dll
+D:\workplace\text\BLL\bin\Debug\TFXK.OleDbDAL.dll
+D:\workplace\text\BLL\bin\Debug\TFXK.DBUtility.dll
+D:\workplace\text\BLL\bin\Debug\TFXK.Model.pdb
+D:\workplace\text\BLL\bin\Debug\TFXK.Common.pdb
+D:\workplace\text\BLL\bin\Debug\CodematicDemo.IDAL.pdb
+D:\workplace\text\BLL\bin\Debug\TFXK.DALFactory.pdb
+D:\workplace\text\BLL\bin\Debug\TFXK.OleDbDAL.pdb
+D:\workplace\text\BLL\bin\Debug\TFXK.DBUtility.pdb
+D:\workplace\text\BLL\obj\Debug\ResolveAssemblyReference.cache
+D:\workplace\text\BLL\obj\Debug\TFXK.BLL.dll
+D:\workplace\text\BLL\obj\Debug\TFXK.BLL.pdb
+D:\workplace\DevWebSystem\text\BLL\bin\Debug\TFXK.BLL.dll
+D:\workplace\DevWebSystem\text\BLL\bin\Debug\TFXK.BLL.pdb
+D:\workplace\DevWebSystem\text\BLL\bin\Debug\CodematicDemo.IDAL.dll
+D:\workplace\DevWebSystem\text\BLL\bin\Debug\TFXK.Common.dll
+D:\workplace\DevWebSystem\text\BLL\bin\Debug\TFXK.DALFactory.dll
+D:\workplace\DevWebSystem\text\BLL\bin\Debug\TFXK.Model.dll
+D:\workplace\DevWebSystem\text\BLL\bin\Debug\TFXK.OleDbDAL.dll
+D:\workplace\DevWebSystem\text\BLL\bin\Debug\TFXK.DBUtility.dll
+D:\workplace\DevWebSystem\text\BLL\bin\Debug\TFXK.Model.pdb
+D:\workplace\DevWebSystem\text\BLL\bin\Debug\TFXK.Common.pdb
+D:\workplace\DevWebSystem\text\BLL\bin\Debug\CodematicDemo.IDAL.pdb
+D:\workplace\DevWebSystem\text\BLL\bin\Debug\TFXK.DALFactory.pdb
+D:\workplace\DevWebSystem\text\BLL\bin\Debug\TFXK.OleDbDAL.pdb
+D:\workplace\DevWebSystem\text\BLL\bin\Debug\TFXK.DBUtility.pdb
+D:\workplace\DevWebSystem\text\BLL\obj\Debug\ResolveAssemblyReference.cache
+D:\workplace\DevWebSystem\text\BLL\obj\Debug\TFXK.BLL.dll
+D:\workplace\DevWebSystem\text\BLL\obj\Debug\TFXK.BLL.pdb
+D:\workplace\DevWebSystem\text\BLL\bin\Release\TFXK.BLL.dll
+D:\workplace\DevWebSystem\text\BLL\bin\Release\CodematicDemo.IDAL.dll
+D:\workplace\DevWebSystem\text\BLL\bin\Release\TFXK.Common.dll
+D:\workplace\DevWebSystem\text\BLL\bin\Release\TFXK.DALFactory.dll
+D:\workplace\DevWebSystem\text\BLL\bin\Release\TFXK.Model.dll
+D:\workplace\DevWebSystem\text\BLL\bin\Release\TFXK.OleDbDAL.dll
+D:\workplace\DevWebSystem\text\BLL\bin\Release\TFXK.DBUtility.dll
+D:\workplace\DevWebSystem\text\BLL\bin\Release\TFXK.Common.pdb
+D:\workplace\DevWebSystem\text\BLL\bin\Release\TFXK.OleDbDAL.pdb
+D:\workplace\DevWebSystem\text\BLL\obj\Release\ResolveAssemblyReference.cache
+D:\workplace\DevWebSystem\text\BLL\obj\Release\TFXK.BLL.dll

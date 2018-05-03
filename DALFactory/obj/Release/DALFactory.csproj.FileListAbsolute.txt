@@ -1,0 +1,6 @@
+D:\GitNowWork\code\DALFactory\bin\Release\TFXK.DALFactory.dll
+D:\GitNowWork\code\DALFactory\bin\Release\CodematicDemo.IDAL.dll
+D:\GitNowWork\code\DALFactory\bin\Release\TFXK.Model.dll
+D:\GitNowWork\code\DALFactory\obj\Release\DALFactory.csprojResolveAssemblyReference.cache
+D:\GitNowWork\code\DALFactory\obj\Release\DALFactory.csproj.CoreCompileInputs.cache
+D:\GitNowWork\code\DALFactory\obj\Release\TFXK.DALFactory.dll

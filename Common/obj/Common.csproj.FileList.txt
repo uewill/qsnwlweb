@@ -1,0 +1,5 @@
+bin\Debug\CDSFKJ.Common.dll
+bin\Debug\CDSFKJ.Common.pdb
+obj\Debug\ResolveAssemblyReference.cache
+obj\Debug\CDSFKJ.Common.dll
+obj\Debug\CDSFKJ.Common.pdb

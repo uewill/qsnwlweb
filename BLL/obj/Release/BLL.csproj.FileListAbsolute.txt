@@ -1,0 +1,9 @@
+D:\GitNowWork\code\BLL\bin\Release\TFXK.BLL.dll
+D:\GitNowWork\code\BLL\bin\Release\CodematicDemo.IDAL.dll
+D:\GitNowWork\code\BLL\bin\Release\TFXK.Common.dll
+D:\GitNowWork\code\BLL\bin\Release\TFXK.DALFactory.dll
+D:\GitNowWork\code\BLL\bin\Release\TFXK.Model.dll
+D:\GitNowWork\code\BLL\bin\Release\TFXK.Common.pdb
+D:\GitNowWork\code\BLL\obj\Release\BLL.csprojResolveAssemblyReference.cache
+D:\GitNowWork\code\BLL\obj\Release\BLL.csproj.CoreCompileInputs.cache
+D:\GitNowWork\code\BLL\obj\Release\TFXK.BLL.dll

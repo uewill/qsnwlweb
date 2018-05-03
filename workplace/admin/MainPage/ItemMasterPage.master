@@ -1,0 +1,104 @@
+﻿<%@ Master Language="C#" AutoEventWireup="true" CodeFile="ItemMasterPage.master.cs"
+    Inherits="admin_MainPage_ItemMasterPage" %>
+<%@ Register Assembly="DevExpress.Web.v9.2, Version=9.2.9.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a"
+    Namespace="DevExpress.Web.ASPxRoundPanel" TagPrefix="dxrp" %>
+<%@ Register Assembly="DevExpress.Web.ASPxEditors.v9.2, Version=9.2.9.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a"
+    Namespace="DevExpress.Web.ASPxEditors" TagPrefix="dxe" %>
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head runat="server">
+    <title>无背景母板页</title>
+    <link href="../css/page.css" rel="stylesheet" type="text/css" />
+    <link href="../css/main.css" rel="stylesheet" type="text/css" />
+    <link href="../css/validator.css" rel="stylesheet" type="text/css" />
+    <script src="../js/jquery1.3.js" type="text/javascript" language="javascript"></script>
+    <script src="../js/formValidator.js" type="text/javascript" language="javascript"></script>
+    
+    
+    <!-- artDialog -->
+
+    <script type="text/javascript" src="../../ArtDialog/artDialog.min.js" charset="utf-8"></script>
+
+    <script> 
+(function($){
+	// 改变默认配置
+	var d = $.dialog.defaults;
+	// 预缓存皮肤，数组第一个为默认皮肤
+	d.skin = ['aero','normal', 'chrome', 'facebook', 'aero'];
+	// 是否开启特效
+	//d.effect = true;
+	// 指定超过此面积的对话框拖动的时候用替身
+	//d.showTemp = 100000;
+	
+})(art);
+    </script>
+    
+    <script language="javascript" type="text/javascript">
+    $(document).ready(function() {
+        // 添加表格背景色
+        $(".maincon tr").addClass("mouseout");
+        
+        // 鼠标经过时改变表格背景色
+        $(".maincon tr").hover(function(){
+            $(this).addClass("mouseover");
+        }, function() {
+            $(this).removeClass("mouseover");
+        });
+        
+	    // 全选取消
+        $("#checkall").click(function(){    
+            if(this.checked)
+            {    
+                $("input[type='checkbox']").attr('checked', true)   
+            }
+            else
+            {    
+                $("input[type='checkbox']").attr('checked', false)   
+            }    
+        });  
+    });
+    </script>
+   <script type="text/javascript" src="../js/baseComman.js" charset="utf-8"></script>
+
+</head>
+<body style="background-image: none; background-color: transparent; margin-top: 0px;
+    padding-top: 0px; margin-left: 0px; margin-right: 0px;">
+    <form id="form1" runat="server">
+        <table cellpadding="0" cellspacing="0" border="0" width="100%" runat="server" enableviewstate="False"
+            id="tblTitle">
+            <tr>
+                <td valign="top">
+                    <dxe:ASPxImage EnableViewState="False" ID="ImageRPTopLeftCorner" runat="server" SkinID="TopLeftCorner" />
+                </td>
+                <td valign="middle" class="DetailsPageHeader">
+                    <table cellpadding="0" cellspacing="0" border="0" class="Title">
+                        <tr>
+                            <td style="width: 1%;">
+                                <dxe:ASPxImage ID="iTitleImage" runat="server" ImageUrl="../images/GridView.png"
+                                    EnableViewState="False" Width="45px" Height="50px" />
+                            </td>
+                            <td>
+                                <h2 class="DemoHeader h4Blue">
+                                    <asp:SiteMapPath ID="SiteMapPath1" runat="server"  ParentLevelsDisplayed="1">
+                                    </asp:SiteMapPath>
+                                </h2>
+                            </td>
+                        </tr>
+                    </table>
+                </td>
+                <td valign="top">
+                    <dxe:ASPxImage EnableViewState="False" ID="ImageRPTopRightCorner" runat="server"
+                        SkinID="TopRightCorner" />
+                </td>
+            </tr>
+        </table>
+        <div style="background: #ffffff; width: 99.8%; margin-top: 0px; margin-left: 0px;
+            margin-bottom: 10px; padding-bottom: 10px; border: solid 1px #CCC;">
+            <div style="margin-left: 10px; margin-bottom: 10px; margin-top: 0px; margin-right: 10px; font-size:12px;">
+                <asp:ContentPlaceHolder ID="ContentPlaceHolder1" runat="server">
+                </asp:ContentPlaceHolder>
+            </div>
+        </div>
+    </form>
+</body>
+</html>

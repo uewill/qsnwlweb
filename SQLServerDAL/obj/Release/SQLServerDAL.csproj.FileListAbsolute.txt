@@ -1,0 +1,8 @@
+D:\GitNowWork\code\SQLServerDAL\bin\Release\TFXK.SQLServerDAL.dll
+D:\GitNowWork\code\SQLServerDAL\bin\Release\CodematicDemo.IDAL.dll
+D:\GitNowWork\code\SQLServerDAL\bin\Release\LTP.Common.dll
+D:\GitNowWork\code\SQLServerDAL\bin\Release\TFXK.DBUtility.dll
+D:\GitNowWork\code\SQLServerDAL\bin\Release\TFXK.Model.dll
+D:\GitNowWork\code\SQLServerDAL\obj\Release\SQLServerDAL.csprojResolveAssemblyReference.cache
+D:\GitNowWork\code\SQLServerDAL\obj\Release\SQLServerDAL.csproj.CoreCompileInputs.cache
+D:\GitNowWork\code\SQLServerDAL\obj\Release\TFXK.SQLServerDAL.dll

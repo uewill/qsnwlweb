@@ -1,0 +1,61 @@
+C:\Documents and Settings\Administrator\桌面\text\OleDbDAL\obj\Debug\ResolveAssemblyReference.cache
+C:\Documents and Settings\Administrator\桌面\text\OleDbDAL\bin\Debug\TFXK.OleDbDAL.dll
+C:\Documents and Settings\Administrator\桌面\text\OleDbDAL\bin\Debug\TFXK.OleDbDAL.pdb
+C:\Documents and Settings\Administrator\桌面\text\OleDbDAL\bin\Debug\CodematicDemo.IDAL.dll
+C:\Documents and Settings\Administrator\桌面\text\OleDbDAL\bin\Debug\TFXK.DALFactory.dll
+C:\Documents and Settings\Administrator\桌面\text\OleDbDAL\bin\Debug\TFXK.DBUtility.dll
+C:\Documents and Settings\Administrator\桌面\text\OleDbDAL\bin\Debug\TFXK.Model.dll
+C:\Documents and Settings\Administrator\桌面\text\OleDbDAL\bin\Debug\TFXK.Model.pdb
+C:\Documents and Settings\Administrator\桌面\text\OleDbDAL\bin\Debug\CodematicDemo.IDAL.pdb
+C:\Documents and Settings\Administrator\桌面\text\OleDbDAL\bin\Debug\TFXK.DALFactory.pdb
+C:\Documents and Settings\Administrator\桌面\text\OleDbDAL\bin\Debug\TFXK.DBUtility.pdb
+C:\Documents and Settings\Administrator\桌面\text\OleDbDAL\obj\Debug\TFXK.OleDbDAL.dll
+C:\Documents and Settings\Administrator\桌面\text\OleDbDAL\obj\Debug\TFXK.OleDbDAL.pdb
+D:\workplace\DevWebSystem\DEV Access后台 V1.1\text\OleDbDAL\bin\Debug\TFXK.OleDbDAL.dll
+D:\workplace\DevWebSystem\DEV Access后台 V1.1\text\OleDbDAL\bin\Debug\TFXK.OleDbDAL.pdb
+D:\workplace\DevWebSystem\DEV Access后台 V1.1\text\OleDbDAL\bin\Debug\CodematicDemo.IDAL.dll
+D:\workplace\DevWebSystem\DEV Access后台 V1.1\text\OleDbDAL\bin\Debug\TFXK.DALFactory.dll
+D:\workplace\DevWebSystem\DEV Access后台 V1.1\text\OleDbDAL\bin\Debug\TFXK.DBUtility.dll
+D:\workplace\DevWebSystem\DEV Access后台 V1.1\text\OleDbDAL\bin\Debug\TFXK.Model.dll
+D:\workplace\DevWebSystem\DEV Access后台 V1.1\text\OleDbDAL\bin\Debug\TFXK.Model.pdb
+D:\workplace\DevWebSystem\DEV Access后台 V1.1\text\OleDbDAL\bin\Debug\CodematicDemo.IDAL.pdb
+D:\workplace\DevWebSystem\DEV Access后台 V1.1\text\OleDbDAL\bin\Debug\TFXK.DALFactory.pdb
+D:\workplace\DevWebSystem\DEV Access后台 V1.1\text\OleDbDAL\bin\Debug\TFXK.DBUtility.pdb
+D:\workplace\DevWebSystem\DEV Access后台 V1.1\text\OleDbDAL\obj\Debug\ResolveAssemblyReference.cache
+D:\workplace\DevWebSystem\DEV Access后台 V1.1\text\OleDbDAL\obj\Debug\TFXK.OleDbDAL.dll
+D:\workplace\DevWebSystem\DEV Access后台 V1.1\text\OleDbDAL\obj\Debug\TFXK.OleDbDAL.pdb
+D:\workplace\text\OleDbDAL\bin\Debug\TFXK.OleDbDAL.dll
+D:\workplace\text\OleDbDAL\bin\Debug\TFXK.OleDbDAL.pdb
+D:\workplace\text\OleDbDAL\bin\Debug\CodematicDemo.IDAL.dll
+D:\workplace\text\OleDbDAL\bin\Debug\TFXK.DALFactory.dll
+D:\workplace\text\OleDbDAL\bin\Debug\TFXK.DBUtility.dll
+D:\workplace\text\OleDbDAL\bin\Debug\TFXK.Model.dll
+D:\workplace\text\OleDbDAL\bin\Debug\TFXK.Model.pdb
+D:\workplace\text\OleDbDAL\bin\Debug\CodematicDemo.IDAL.pdb
+D:\workplace\text\OleDbDAL\bin\Debug\TFXK.DALFactory.pdb
+D:\workplace\text\OleDbDAL\bin\Debug\TFXK.DBUtility.pdb
+D:\workplace\text\OleDbDAL\obj\Debug\ResolveAssemblyReference.cache
+D:\workplace\text\OleDbDAL\obj\Debug\TFXK.OleDbDAL.dll
+D:\workplace\text\OleDbDAL\obj\Debug\TFXK.OleDbDAL.pdb
+D:\workplace\DevWebSystem\text\OleDbDAL\bin\Debug\TFXK.OleDbDAL.dll
+D:\workplace\DevWebSystem\text\OleDbDAL\bin\Debug\TFXK.OleDbDAL.pdb
+D:\workplace\DevWebSystem\text\OleDbDAL\bin\Debug\CodematicDemo.IDAL.dll
+D:\workplace\DevWebSystem\text\OleDbDAL\bin\Debug\TFXK.DALFactory.dll
+D:\workplace\DevWebSystem\text\OleDbDAL\bin\Debug\TFXK.DBUtility.dll
+D:\workplace\DevWebSystem\text\OleDbDAL\bin\Debug\TFXK.Model.dll
+D:\workplace\DevWebSystem\text\OleDbDAL\bin\Debug\TFXK.Model.pdb
+D:\workplace\DevWebSystem\text\OleDbDAL\bin\Debug\CodematicDemo.IDAL.pdb
+D:\workplace\DevWebSystem\text\OleDbDAL\bin\Debug\TFXK.DALFactory.pdb
+D:\workplace\DevWebSystem\text\OleDbDAL\bin\Debug\TFXK.DBUtility.pdb
+D:\workplace\DevWebSystem\text\OleDbDAL\obj\Debug\ResolveAssemblyReference.cache
+D:\workplace\DevWebSystem\text\OleDbDAL\obj\Debug\TFXK.OleDbDAL.dll
+D:\workplace\DevWebSystem\text\OleDbDAL\obj\Debug\TFXK.OleDbDAL.pdb
+D:\workplace\DevWebSystem\text\OleDbDAL\bin\Release\TFXK.OleDbDAL.dll
+D:\workplace\DevWebSystem\text\OleDbDAL\bin\Release\TFXK.OleDbDAL.pdb
+D:\workplace\DevWebSystem\text\OleDbDAL\bin\Release\CodematicDemo.IDAL.dll
+D:\workplace\DevWebSystem\text\OleDbDAL\bin\Release\TFXK.DALFactory.dll
+D:\workplace\DevWebSystem\text\OleDbDAL\bin\Release\TFXK.DBUtility.dll
+D:\workplace\DevWebSystem\text\OleDbDAL\bin\Release\TFXK.Model.dll
+D:\workplace\DevWebSystem\text\OleDbDAL\obj\Release\ResolveAssemblyReference.cache
+D:\workplace\DevWebSystem\text\OleDbDAL\obj\Release\TFXK.OleDbDAL.dll
+D:\workplace\DevWebSystem\text\OleDbDAL\obj\Release\TFXK.OleDbDAL.pdb

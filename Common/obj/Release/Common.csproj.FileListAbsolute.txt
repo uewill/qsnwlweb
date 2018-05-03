@@ -1,0 +1,11 @@
+D:\workplace\广安科塔\CDSFKJ\Common\bin\Release\CDSFKJ.Common.dll
+D:\workplace\广安科塔\CDSFKJ\Common\bin\Release\CDSFKJ.Common.pdb
+D:\workplace\广安科塔\CDSFKJ\Common\obj\Release\ResolveAssemblyReference.cache
+D:\workplace\广安科塔\CDSFKJ\Common\obj\Release\CDSFKJ.Common.dll
+D:\workplace\广安科塔\CDSFKJ\Common\obj\Release\CDSFKJ.Common.pdb
+D:\GitNowWork\code\Common\bin\Release\TFXK.Common.dll
+D:\GitNowWork\code\Common\bin\Release\TFXK.Common.pdb
+D:\GitNowWork\code\Common\obj\Release\Common.csprojResolveAssemblyReference.cache
+D:\GitNowWork\code\Common\obj\Release\Common.csproj.CoreCompileInputs.cache
+D:\GitNowWork\code\Common\obj\Release\TFXK.Common.dll
+D:\GitNowWork\code\Common\obj\Release\TFXK.Common.pdb
