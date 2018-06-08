@@ -42,7 +42,7 @@
                                         <dxnb:NavBarItem NavigateUrl="~/admin/SiteConfigManage/default.aspx" Text="站点设置"
                                             Target="Frame1">
                                         </dxnb:NavBarItem>
-                                       <%-- <dxnb:NavBarItem NavigateUrl="~/admin/AdsManage/default.aspx" Text="广告管理" Target="Frame1">
+                                        <%-- <dxnb:NavBarItem NavigateUrl="~/admin/AdsManage/default.aspx" Text="广告管理" Target="Frame1">
                                         </dxnb:NavBarItem>--%>
                                         <dxnb:NavBarItem NavigateUrl="~/admin/LinkManage/default.aspx" Text="友情链接管理" Target="Frame1">
                                         </dxnb:NavBarItem>
@@ -55,11 +55,13 @@
                 <tr id="leftMenuDiv3" class="block">
                     <td width="190px">
                         <dxnb:ASPxNavBar ID="ASPxNavBar3" runat="server" Width="100%" AutoCollapse="false"
-                            EncodeHtml="False" AllowSelectItem="True">
+                            EncodeHtml="False" AllowSelectItem="True" Visible="true">
                             <Groups>
-                                <dxnb:NavBarGroup Name="navHYGL" Visible="true" Text="会员管理">
+                                <dxnb:NavBarGroup Name="navHYGL" Visible="true" Text="考级管理">
                                     <Items>
-                                        <dxnb:NavBarItem NavigateUrl="~/admin/CustomManage/default.aspx" Text="会员列表" Target="Frame1">
+                                        <dxnb:NavBarItem NavigateUrl="~/admin/ExamManage/default.aspx" Text="考点列表" Target="Frame1">
+                                        </dxnb:NavBarItem>
+                                        <dxnb:NavBarItem NavigateUrl="~/admin/ExamPlanManage/default.aspx" Text="考级计划" Target="Frame1">
                                         </dxnb:NavBarItem>
                                     </Items>
                                 </dxnb:NavBarGroup>

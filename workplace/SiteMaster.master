@@ -7,7 +7,9 @@
     <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
     <meta charset="utf-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title><%= Page.Title %> - 我的 ASP.NET 应用程序</title>
+    <title><%= Page.Title %> - <%=model.title %></title>
+    <meta name="keywords" <%="content=\""+model.mata+"\"" %> />
+    <meta name="description" <%="content=\""+model.description+"\"" %> />
     <script src="/Scripts/modernizr-2.6.2.js"></script>
     <link href="/Content/bootstrap.css" rel="stylesheet" />
     <link href="/Content/Site.css" rel="stylesheet" />
@@ -16,8 +18,9 @@
 <body>
     <form runat="server">
         <div class="container">
-            <div class="row" style="float: left; padding-top: 10px; padding-bottom: 10px;">
-                <img src="/images/logo.png" height="100" />
+            <div class="row" style="float: left; padding-top: 10px; margin-bottom: 10px;">
+                <img src="/images/logo.jpg" height="80" />
+                <img src="/images/logo2.png" height="48" />
             </div>
         </div>
         <div class="navbar navbar-inverse" style="border-radius: 0px; border: 0px; margin-bottom: -1px;">
@@ -32,99 +35,43 @@
                 <div class="navbar-collapse collapse" style="margin-left: -15px;">
                     <ul class="nav navbar-nav">
                         <li id="navHome"><a runat="server" href="~/">首页</a></li>
-                        <li id="navAbout" ><a href="About.aspx">中心概况</a></li>
-                        <li id="navNews" ><a  href="ArticalList.aspx?code=zxdt">新闻中心</a></li>
-                        <li id="navYSZX" ><a  href="PicList.aspx?code=zxxq">艺术中心</a></li>
-                        <li id="navSK" ><a  href="ArticalList.aspx?code=skryb">三宽家长学校</a></li>
-                        <li id="navTJYK" ><a href="About.aspx?code=tjykjj">天骄艺考</a></li>
-                        <li id="navQSN" ><a  href="About.aspx?code=qsnwljj">青少年文联</a></li>
-                        <li id="navYC" ><a  href="About.aspx?code=xchqjj">兴川后勤</a></li>
-                        <li id="navContact" ><a  href="About.aspx?code=lxwm">联系我们</a></li>
+                        <li id="navNews"><a href="ArticalList.aspx?code=zxdt">最新动态</a></li>
+                        <li id="navXGWJ"><a href="ArticalList.aspx?code=xgwj">相关文件</a></li>
+                        <li id="navXZZQ"><a href="ArticalList.aspx?code=xzzq">下载专区</a></li>
+                        <li id="navKJBZ"><a href="ArticalList.aspx?code=kjbz">考级标准</a></li>
+                        <li id="navKDML"><a href="ArticalList.aspx?code=kdml">考点名录</a></li>
+                        <li id="navDQTK"><a href="ArticalList.aspx?code=dqtk">地区统考</a></li>
+                        <li id="navZPZS"><a href="PicList.aspx?code=zpzs">作品展示</a></li>
+                        <li id="navKJJC"><a href="ArticalList.aspx?code=kjjc">考级教材</a></li>
+                        <li id="navContact"><a href="About.aspx?code=cjcx">成绩查询</a></li>
+                        <li id="navAbout"><a href="About.aspx">联系我们</a></li>
                     </ul>
                 </div>
             </div>
         </div>
-        <div class="container  body-content">
-            <div class="row" style="border: solid 1px #CCC; margin-left: 0px; margin-right: 0px; padding-top: 10px; padding-bottom: 10px;">
-
-
-                <div class="col-md-4">
-                    <h4 style="padding-left: 15px;">
-                        <img src="images/about.png" width="36" height="36" />&nbsp;中心概况</h4>
-                    <div class="subnav">
-                        <ul>
-                            <li class="active"><a runat="server" href="~/About.aspx">中心简介</a></li>
-                            <li><a runat="server" href="~/PicList.aspx?code=rygw">荣誉顾问</a></li>
-                            <li><a runat="server" href="~/About.aspx?code=txjg">体系结构</a></li>
-                            <li><a runat="server" href="~/PicList.aspx?code=gldw">关联单位</a></li>
-                            <li><a runat="server" href="~/About.aspx?code=fzygh">发展规划</a></li>
-                            <li><a runat="server" href="~/Message.aspx">在线留言</a></li>
-
-                        </ul>
-                    </div>
-                </div>
-                <div class="col-md-4">
-                    <h4 style="padding-left: 15px;">
-                        <img src="images/px.png" width="36" height="36" />&nbsp;世纪年华艺术中心</h4>
-                    <div class="subnav">
-                        <ul>
-                            <li><a runat="server" href="~/PicList.aspx?code=zxxq">中心校区</a></li>
-                            <li><a runat="server" href="~/PicList.aspx?code=pxlm">培训类目</a></li>
-                            <li><a runat="server" href="~/ArticalList.aspx?code=pxdt">培训动态</a></li>
-                            <li><a runat="server" href="~/About.aspx?code=yskjjj">考级简介</a></li>
-                            <li><a runat="server" href="~/ArticalList.aspx?code=yskjzx">考级资讯</a></li>
-                            <li><a runat="server" href="~/PicList.aspx?code=yskjzy">考级专业</a></li>
-
-                        </ul>
-                    </div>
-                </div>
-                <div class="col-md-4">
-                    <h4 style="padding-left: 15px;">
-                        <img src="images/jz.png" width="36" height="36" />&nbsp;三宽家长学校</h4>
-                    <div class="subnav">
-                        <ul>
-                            <li class="active"><a runat="server" href="~/About.aspx?code=skryb">学校简介</a></li>
-                            <li><a runat="server" href="~/About.aspx?code=skjzkc">课程介绍</a></li>
-                            <li><a runat="server" href="~/ArticalList.aspx?code=skzxdt">最新动态</a></li>
-                            <li><a runat="server" href="~/PicList.aspx?code=skxzyd">师资团队</a></li>
-                            <li><a runat="server" href="~/PicList.aspx?code=skystd">直播大厅</a></li>
-
-                        </ul>
-                    </div>
-                </div>
-            </div>
+        <div class="banner" style="border-radius: 0px; border: 0px; margin-bottom: -1px; height: 440px; overflow: hidden; margin: auto; width: 100%;">
+            <a href="#" class="d1" style="background: url(images/bg.jpg) center no-repeat;"></a>
         </div>
-
-
         <div class="container body-content" style="margin-top: 10px;">
             <asp:ContentPlaceHolder ID="MainContent" runat="server">
             </asp:ContentPlaceHolder>
         </div>
-        <div style="width: 100%; background-color: #444; padding: 20px;">
+        <div style="width: 100%; background-color: #444; padding: 10px;">
             <div class="container  body-content" id="fd">
                 <div class="col-md-12 text-center">
                     <p class="fd_nv">
                         <a href="About.aspx?code=lxwm">联系我们</a>|
-                        <a href="About.aspx?code=zxgk">关于我们</a>|	
-                        <a href="http://www.qsnwl.com/category/68/1.html">招聘信息</a>|	
-                        <a href="http://www.qsnwl.com/category/69/1.html">合作招商</a>|		
-                        <a href="http://www.qsnwl.com/category/70/1.html">广告服务</a>|		
-                        <a href="http://www.qsnwl.com/category/71/1.html">客服中心</a>|			
-                        <a href="PicList.aspx?code=gldw">协作单位</a>|		
-                        <a href="http://www.qsnwl.com/category/73/1.html">版权所有</a>
+                        <a href="About.aspx">关于我们</a>|	
+                        <a href="About.aspx?code=zpxx">招聘信息</a>|	
+                        <a href="About.aspx?code=hzzs">合作招商</a>|	
+                        <a href="Message.aspx">在线留言</a>
                     </p>
                 </div>
                 <div class="col-md-12 text-center">
                     <p class="fd_nv">
-                        Copyright © <%=DateTime.Now.Year %> CFLAC Corporation, All Rights Reserved 四川省青少年文学艺术联合会
+                        <%=model.footer %>
                     </p>
                 </div>
-                <div class="col-md-12 text-center">
-                    <p class="fd_nv">
-                        蜀ICP备13016095号-3
-                    </p>
-                </div>
-
             </div>
         </div>
 

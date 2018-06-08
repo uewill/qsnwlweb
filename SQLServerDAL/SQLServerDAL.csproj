@@ -146,6 +146,9 @@
     <Compile Include="ProExtCategoryDAL.cs" />
     <Compile Include="RoleDAL.cs" />
     <Compile Include="SiteConfigDAL.cs" />
+    <Compile Include="TestingCenter.cs" />
+    <Compile Include="TestingPlan.cs" />
+    <Compile Include="TestingStudent.cs" />
     <Compile Include="UserOrdersDAL.cs" />
     <Compile Include="UsersDAL.cs" />
     <Compile Include="TourCategoryDAL.cs" />

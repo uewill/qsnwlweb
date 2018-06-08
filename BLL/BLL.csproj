@@ -125,6 +125,9 @@
     <Compile Include="ProductsBLL.cs" />
     <Compile Include="ProExtCategoryBLL.cs" />
     <Compile Include="SiteConfigBLL.cs" />
+    <Compile Include="TestingCenter.cs" />
+    <Compile Include="TestingPlan.cs" />
+    <Compile Include="TestingStudent.cs" />
     <Compile Include="UserOrdersBLL.cs" />
     <Compile Include="UsersBLL.cs" />
     <Compile Include="TourCategoryBLL.cs" />

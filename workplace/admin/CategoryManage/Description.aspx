@@ -10,13 +10,17 @@
     <script src="../../Kinde/kindeditor.js" type="text/javascript"></script>
 
     <script type="text/javascript">
-KE.show({
-    id : 'ctl00_ContentPlaceHolder1_ASPxRoundPanel1_txtContent',
-    imageUploadJson : '../../Handler/uploadfile.ashx',
-    fileManagerJson :' ../../Handler/Managefile_json.ashx',
-    allowFileManager : true
-});
+	KindEditor.ready(function(K) {
+			var editor1 = K.create('#ctl00_ContentPlaceHolder1_ASPxRoundPanel1_txtContent', {
+				cssPath : '../../kinde/plugins/code/prettify.css',
+				uploadJson : '../../kinde/asp.net/upload_json.ashx',
+				fileManagerJson : '../../kinde/asp.net/file_manager_json.ashx',
+				allowFileManager : true,
+			});
+		});
+
     </script>
+
 
     <input type="hidden" id="hdfID" runat="server" />
     <dxrp:ASPxRoundPanel ID="ASPxRoundPanel1" ShowHeader="False" runat="server" Width="100%">

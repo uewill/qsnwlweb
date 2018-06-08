@@ -12,6 +12,7 @@ public partial class _Default : System.Web.UI.Page
 
     TFXK.BLL.CategoryBLL bllCategory = new TFXK.BLL.CategoryBLL();
 
+    public string isShowAd = "none";
     public string skimg = "images/nopic.jpg";
     public string skdes = string.Empty;
     protected void Page_Load(object sender, EventArgs e)
@@ -31,39 +32,50 @@ public partial class _Default : System.Web.UI.Page
         rptTuiJianNav.DataSource = data;
         rptTuiJianNav.DataBind();
 
-        rptNewsList.DataSource = bllArtical.GetAllListByCodeNo_Web(13, 1, "xwzx", out count);
+        rptNewsList.DataSource = bllArtical.GetAllListByCodeNo_Web(11, 1, "xwzx", out count);
         rptNewsList.DataBind();
 
-        rptYSPX.DataSource = bllArtical.GetAllListByCodeNo_Web(10, 1, "pxlm", out count);
-        rptYSPX.DataBind();
+        rptZPZS.DataSource = bllArtical.GetAllListByCodeNo_Web(10, 1, "zpzs", out count);
+        rptZPZS.DataBind();
 
-        rptPXZX.DataSource = bllArtical.GetAllListByCodeNo_Web(10, 1, "pxdt", out count);
-        rptPXZX.DataBind();
+        rptXGWJ.DataSource = bllArtical.GetAllListByCodeNo_Web(10, 1, "xgwj", out count);
+        rptXGWJ.DataBind();
 
-        rptHDZT.DataSource = bllArtical.GetAllListByCodeNo_Web(10, 1, "hdzt", out count);
-        rptHDZT.DataBind();
+        rptKJBZ.DataSource = bllArtical.GetAllListByCodeNo_Web(10, 1, "kjbz", out count);
+        rptKJBZ.DataBind();
 
-        rptKJZX.DataSource = bllArtical.GetAllListByCodeNo_Web(17, 1, "yskjzx", out count);
-        rptKJZX.DataBind();
+        rptSYGG.DataSource = bllArtical.GetAllListByCodeNo_Web(5, 1, "sygg", out count);
+        rptSYGG.DataBind();
+        if (count > 0) {
+            isShowAd = "true";
+        }
 
-        rptYSKJ.DataSource = bllArtical.GetAllListByCodeNo_Web(4, 1, "yskjzy", out count);
-        rptYSKJ.DataBind();
+        //rptYSKJ.DataSource = bllArtical.GetAllListByCodeNo_Web(4, 1, "yskjzy", out count);
+        //rptYSKJ.DataBind();
 
-        rptSKZXDT.DataSource = bllArtical.GetAllListByCodeNo_Web(8, 1, "skzxdt", out count);
-        rptSKZXDT.DataBind();
+        //rptSKZXDT.DataSource = bllArtical.GetAllListByCodeNo_Web(8, 1, "skzxdt", out count);
+        //rptSKZXDT.DataBind();
 
-        rptZXXQ.DataSource = bllArtical.GetAllListByCodeNo_Web(4, 1, "zxxq", out count);
-        rptZXXQ.DataBind();
+        //rptZXXQ.DataSource = bllArtical.GetAllListByCodeNo_Web(4, 1, "zxxq", out count);
+        //rptZXXQ.DataBind();
 
-        rptGLDW.DataSource = bllArtical.GetAllListByCodeNo_Web(3, 1, "gldw", out count);
-        rptGLDW.DataBind();
+        //rptGLDW.DataSource = bllArtical.GetAllListByCodeNo_Web(3, 1, "gldw", out count);
+        //rptGLDW.DataBind();
 
         rptLink.DataSource = bllLink.GetAllList();
         rptLink.DataBind();
 
 
-        var model = bllCategory.GetModel("skryb");
-        skimg = "/uploads/" + model.imgPath;
-        skdes = model.description;
+        //var model = bllCategory.GetModel("skryb");
+        //skimg = "/uploads/" + model.imgPath;
+        //skdes = model.description;
+    }
+    public string GetFirstNews(int index, string title)
+    {
+        if (index == 0)
+        {
+            return string.Format("<b>{0}</b>", title);
+        }
+        return title;
     }
 }

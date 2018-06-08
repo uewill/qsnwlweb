@@ -21,7 +21,7 @@ public partial class Controls_LeftNavControl : System.Web.UI.UserControl
             rptNavList.DataSource = navList;
             rptNavList.DataBind();
             int rowCount = 0;
-            var adList = bllArticles.GetAllListByCodeNo_Web(10, 1, "sygg", out rowCount);
+            var adList = bllArticles.GetAllListByCodeNo_Web(10, 1, "zyzcdh", out rowCount);
             rptAdList.DataSource = adList;
             rptAdList.DataBind();
 

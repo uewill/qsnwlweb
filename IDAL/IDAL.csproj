@@ -129,6 +129,9 @@
     <Compile Include="IProExtCategoryDAL.cs" />
     <Compile Include="IRoleDAL.cs" />
     <Compile Include="ISiteConfigDAL.cs" />
+    <Compile Include="ITestingCenter.cs" />
+    <Compile Include="ITestingPlan.cs" />
+    <Compile Include="ITestingStudent.cs" />
     <Compile Include="IUserOrdersDAL.cs" />
     <Compile Include="IUsersDAL.cs" />
     <Compile Include="ITourCategoryDAL.cs" />

@@ -3,10 +3,10 @@
 <asp:Content ID="Content1" ContentPlaceHolderID="MainContent" runat="Server">
 
 
-    <div class="row">
-        <div class="col-md-7">
+    <div class="row" style="height: 320px;">
+        <div class="col-md-4">
             <div id="carousel-example-captions" class="carousel slide" data-ride="carousel">
-                <ol class="carousel-indicators">
+                <ol class="carousel-indicators" style="bottom: 5px;">
                     <asp:Repeater ID="rptTuiJianNav" runat="server">
                         <ItemTemplate>
                             <li data-target="#carousel-example-captions" data-slide-to="<%#Container.ItemIndex%>" class="<%#Container.ItemIndex==0?"active":"" %>"></li>
@@ -17,9 +17,9 @@
                     <asp:Repeater ID="rptTuiJian" runat="server">
                         <ItemTemplate>
                             <div class="item<%#Container.ItemIndex==0?" active":"" %>">
-                                <img src="/uploads/<%#Eval("imgpath") %>" title="<%#Eval("title") %>" style="width: 680px; height: 380px;">
-                                <div class="carousel-caption">
-                                    <p><a style="color: #fff;" href="/articalDetails.aspx?id=<%#Eval("id") %>" target="_blank"><%# TFXK.Common.StrHelper.CutString(TFXK.Common.StrHelper.checkStr( Eval("title")+""),70) %></a></p>
+                                <img src="/uploads/<%#Eval("imgpath") %>" title="<%#Eval("title") %>" style="height: 320px;">
+                                <div class="carousel-caption" style="padding-bottom: 10px;">
+                                    <p><a style="color: #fff;" href="/articalDetails.aspx?id=<%#Eval("id") %>" target="_blank"><%# TFXK.Common.StrHelper.CutString(TFXK.Common.StrHelper.checkStr( Eval("title")+""),40) %></a></p>
                                 </div>
                             </div>
                         </ItemTemplate>
@@ -37,74 +37,60 @@
             </div>
 
         </div>
-        <div class="col-md-5" style="padding-left: 0px;">
+        <div class="col-md-4">
             <div class="col-md-12" style="border-bottom: solid 1px #CCC;">
-                <span class="moreright"><a href="/ArticalList.aspx?code=zxdt">更多</a></span>
-                <h3>新闻资讯</h3>
+                <%-- <span class="moreright"><a href="/ArticalList.aspx?code=zxdt">更多</a></span>--%>
+                <h4>最新动态</h4>
             </div>
-            <div class="col-md-12" style="height: 340px; overflow: hidden;">
+            <div class="col-md-12" style="border-bottom: solid 1px #CCC; height: 280px; overflow: hidden;">
                 <ul class="newsul">
                     <asp:Repeater ID="rptNewsList" runat="server">
                         <ItemTemplate>
-                            <li><a href="/ArticalDetails.aspx?id=<%#Eval("id") %>" title="<%#Eval("title") %>" target="_blank"><%#TFXK.Common.StrHelper.CutString(TFXK.Common.StrHelper.checkStr( Eval("title")+""),40)  %></a><span class="text-right"><%#Eval("createtime","{0:yyyy-MM-dd}") %></span></li>
+                            <li><a href="/ArticalDetails.aspx?id=<%#Eval("id") %>" title="<%#Eval("title") %>" target="_blank"><%#GetFirstNews(Container.ItemIndex,TFXK.Common.StrHelper.CutString(TFXK.Common.StrHelper.checkStr( Eval("title")+""),30))  %></a><span class="text-right"><%#Eval("createtime","{0:yyyy-MM-dd}") %></span></li>
                         </ItemTemplate>
                     </asp:Repeater>
                 </ul>
             </div>
         </div>
-    </div>
+        <div class="col-md-4" style="padding-left: 0px;">
+            <a href="/Exam/Default.aspx"><img src="images/kaoji.jpg" style="padding: 0px 20px 10px 20px; height: 270px;" /></a>
+            <div class="col-md-6">
+                <a class="btn btn-success btn-lg" style="width: 100%;">成绩查询</a>
+            </div>
+            <div class="col-md-6">
+                <a class="btn btn-default btn-lg" href="About.aspx?code=syzn" style="width: 100%;">使用指南</a>
+            </div>
 
+        </div>
+    </div>
+    <div class="row"  style="margin-top:10px;display:<%=isShowAd%>">
+        <div class="col-md-12">
+            <asp:Repeater ID="rptSYGG" runat="server">
+                <ItemTemplate>
+                    <a href="<%#Eval("outlinkpath") %>" target="_blank" style="padding-bottom:5px;" title="<%#Eval("title") %>">
+                        <img src="/uploads/<%#Eval("imgPath") %>" class="img-responsive" title="<%#Eval("title") %>">
+                    </a>
+                </ItemTemplate>
+            </asp:Repeater>
+        </div>
+    </div>
 
     <div class="row" style="margin-top: 10px;">
-        <div class="col-md-6">
-            <div class="col-md-12" style="border-bottom: solid 1px #CCC;">
-                <span class="moreright"><a href="/ArticalList.aspx?code=pxdt">更多</a></span>
-                <h3>培训动态</h3>
-            </div>
-            <div class="col-md-12" style="overflow: hidden;">
-                <ul class="newsul">
-                    <asp:Repeater ID="rptPXZX" runat="server">
-                        <ItemTemplate>
-                            <li><a href="/ArticalDetails.aspx?id=<%#Eval("id") %>" title="<%#Eval("title") %>" target="_blank"><%#TFXK.Common.StrHelper.CutString(TFXK.Common.StrHelper.checkStr( Eval("title")+""),50)  %></a><span class="text-right"><%#Eval("createtime","{0:yyyy-MM-dd}") %></span></li>
-                        </ItemTemplate>
-                    </asp:Repeater>
-                </ul>
-            </div>
-        </div>
-        <div class="col-md-6">
-            <div class="col-md-12" style="border-bottom: solid 1px #CCC;">
-                <span class="moreright"><a href="/ArticalList.aspx?code=hdzt">更多</a></span>
-                <h3>活动专题</h3>
-            </div>
-            <div class="col-md-12" style="overflow: hidden;">
-                <ul class="newsul">
-                    <asp:Repeater ID="rptHDZT" runat="server">
-                        <ItemTemplate>
-                            <li><a href="/ArticalDetails.aspx?id=<%#Eval("id") %>" title="<%#Eval("title") %>" target="_blank"><%#TFXK.Common.StrHelper.CutString(TFXK.Common.StrHelper.checkStr( Eval("title")+""),50)  %></a><span class="text-right"><%#Eval("createtime","{0:yyyy-MM-dd}") %></span></li>
-                        </ItemTemplate>
-                    </asp:Repeater>
-                </ul>
-            </div>
-        </div>
-    </div>
-
-    <div class="row">
         <div class="col-md-12">
             <div class="col-md-12" style="border-bottom: solid 1px #CCC;">
-                <h3>艺术培训</h3>
+                <span class="moreright"><a href="/ArticalList.aspx?code=zpzs">更多</a></span>
+                <h4>作品展示</h4>
             </div>
         </div>
-        <div class="col-md-12" style="margin-top: 10px;">
-
-            <asp:Repeater ID="rptYSPX" runat="server">
+        <div id="divZP" class="col-md-12" style="margin-top: 10px;">
+            <asp:Repeater ID="rptZPZS" runat="server">
                 <ItemTemplate>
-                    <div class="cscol-md-1-5">
+                    <div class="col-md-2">
                         <a href="ArticalDetails.aspx?id=<%#Eval("id") %>" target="_blank" title="<%#Eval("title") %>">
                             <div class="thumbnail">
-                                <img src="/uploads/<%#Eval("imgPath") %>" style="height: 180px;" title="<%#Eval("title") %>">
-                                <div class="caption" style="overflow: hidden; height: 120px;">
-                                    <h4 class=" text-center"><%#Eval("title") %></h4>
-                                    <p><%# TFXK.Common.StrHelper.CutString(TFXK.Common.StrHelper.checkStr( Eval("description")+""),70) %></p>
+                                <img src="/uploads/<%#Eval("imgPath") %>" style="height: 200px;" title="<%#Eval("title") %>">
+                                <div class="caption" style="overflow: hidden; height: 40px;">
+                                    <h5 class=" text-center"><%#Eval("title") %></h5>
                                 </div>
                             </div>
                         </a>
@@ -115,10 +101,45 @@
     </div>
 
     <div class="row" style="margin-top: 10px;">
+        <div class="col-md-6">
+            <div class="col-md-12" style="border-bottom: solid 1px #CCC;">
+                <span class="moreright"><a href="/ArticalList.aspx?code=xgwj">更多</a></span>
+                <h4>相关文件</h4>
+            </div>
+            <div class="col-md-12" style="overflow: hidden;">
+                <ul class="newsul">
+                    <asp:Repeater ID="rptXGWJ" runat="server">
+                        <ItemTemplate>
+                            <li><a href="/ArticalDetails.aspx?id=<%#Eval("id") %>" title="<%#Eval("title") %>" target="_blank"><%#TFXK.Common.StrHelper.CutString(TFXK.Common.StrHelper.checkStr( Eval("title")+""),50)  %></a><span class="text-right"><%#Eval("createtime","{0:yyyy-MM-dd}") %></span></li>
+                        </ItemTemplate>
+                    </asp:Repeater>
+                </ul>
+            </div>
+        </div>
+        <div class="col-md-6">
+            <div class="col-md-12" style="border-bottom: solid 1px #CCC;">
+                <span class="moreright"><a href="/ArticalList.aspx?code=kjbz">更多</a></span>
+                <h4>考级标准</h4>
+            </div>
+            <div class="col-md-12" style="overflow: hidden;">
+                <ul class="newsul">
+                    <asp:Repeater ID="rptKJBZ" runat="server">
+                        <ItemTemplate>
+                            <li><a href="/ArticalDetails.aspx?id=<%#Eval("id") %>" title="<%#Eval("title") %>" target="_blank"><%#TFXK.Common.StrHelper.CutString(TFXK.Common.StrHelper.checkStr( Eval("title")+""),50)  %></a><span class="text-right"><%#Eval("createtime","{0:yyyy-MM-dd}") %></span></li>
+                        </ItemTemplate>
+                    </asp:Repeater>
+                </ul>
+            </div>
+        </div>
+    </div>
+
+
+
+    <%--    <div class="row" style="margin-top: 10px;">
         <div class="col-md-8">
             <div class="col-md-12" style="border-bottom: solid 1px #CCC;">
                 <span class="moreright"><a href="/ArticalList.aspx?code=yskjzx">更多</a></span>
-                <h3>考级资讯</h3>
+                <h4>考级资讯</h4>
             </div>
             <div class="col-md-12" style="overflow: hidden;">
                 <ul class="newsul">
@@ -132,7 +153,7 @@
         </div>
         <div class="col-md-4">
             <div class="col-md-12" style="border-bottom: solid 1px #CCC;">
-                <h3>艺术考级</h3>
+                <h4>艺术考级</h4>
             </div>
             <div class="col-md-12">
                 <asp:Repeater ID="rptYSKJ" runat="server">
@@ -150,89 +171,12 @@
                 </asp:Repeater>
             </div>
         </div>
-    </div>
+    </div>--%>
 
-    <div class="row" style="margin-top: 10px;">
-        <div class="col-md-6">
-            <div class="col-md-12" style="border-bottom: solid 1px #CCC;">
-                <span class="moreright"><a href="/ArticalList.aspx?code=skzxdt">更多</a></span>
-                <h3>三宽家长学校动态</h3>
-            </div>
-            <div class="col-md-12" style="overflow: hidden;">
-                <ul class="newsul">
-                    <asp:Repeater ID="rptSKZXDT" runat="server">
-                        <ItemTemplate>
-                            <li><a href="/ArticalDetails.aspx?id=<%#Eval("id") %>" title="<%#Eval("title") %>" target="_blank"><%#TFXK.Common.StrHelper.CutString(TFXK.Common.StrHelper.checkStr( Eval("title")+""),50)  %></a><span class="text-right"><%#Eval("createtime","{0:yyyy-MM-dd}") %></span></li>
-                        </ItemTemplate>
-                    </asp:Repeater>
-                </ul>
-            </div>
-        </div>
-        <div class="col-md-6">
-            <div class="col-md-12" style="border-bottom: solid 1px #CCC;">
-                <h3>三宽家长学校简介</h3>
-            </div>
-            <div class="col-md-12">
-                <img src="<%=skimg %>" align="left" hspace="8" vspace="10" width="200" />
-                <div style="padding-top: 10px;"><%=TFXK.Common.StrHelper.CutString(skdes,500)  %></div>
-
-
-            </div>
-        </div>
-    </div>
-
-    <div class="row" style="margin-top: 10px;">
-        <div class="col-md-12">
-            <div class="col-md-12" style="border-bottom: solid 1px #CCC; margin-bottom: 10px;">
-                <span class="moreright"><a href="/PicList.aspx?code=zxxq">更多</a></span>
-                <h3>中心校区</h3>
-            </div>
-
-            <asp:Repeater ID="rptZXXQ" runat="server">
-                <ItemTemplate>
-                    <div class="col-md-3">
-                        <a href="ArticalDetails.aspx?id=<%#Eval("id") %>" target="_blank" title="<%#Eval("title") %>">
-                            <div class="thumbnail">
-                                <img src="/uploads/<%#Eval("imgPath") %>" style="height: 180px;" title="<%#Eval("title") %>">
-                                <div class="caption" style="overflow: hidden; height: 120px;">
-                                    <h4 class=" text-center"><%#Eval("title") %></h4>
-                                    <p><%# TFXK.Common.StrHelper.CutString(TFXK.Common.StrHelper.checkStr( Eval("description")+""),70) %></p>
-                                </div>
-                            </div>
-                        </a>
-                    </div>
-                </ItemTemplate>
-            </asp:Repeater>
-        </div>
-    </div>
-
-    <div class="row" style="margin-top: 10px;">
-        <div class="col-md-12">
-            <div class="col-md-12" style="border-bottom: solid 1px #CCC; margin-bottom: 10px;">
-                <h3>关联单位</h3>
-            </div>
-
-            <asp:Repeater ID="rptGLDW" runat="server">
-                <ItemTemplate>
-                    <div class="col-md-4">
-                        <p>
-                            <img src="/uploads/<%#Eval("imgPath") %>" style="height: 100px;" class="img-responsive" alt="<%#Eval("title") %>">
-                        </p>
-                        <h3><%#Eval("title") %></h3>
-                        <p>
-                            <%# TFXK.Common.StrHelper.CutString(TFXK.Common.StrHelper.checkStr( Eval("description")+""),180) %>
-                        </p>
-                    </div>
-                </ItemTemplate>
-
-            </asp:Repeater>
-
-        </div>
-    </div>
     <div class="row" style="margin-top: 10px; margin-bottom: 20px;">
         <div class="col-md-12">
             <div class="col-md-12" style="border-bottom: solid 1px #CCC;">
-                <h3>友情链接</h3>
+                <h4>友情链接</h4>
             </div>
             <div class="col-md-12 linklist">
                 <ul>
@@ -250,9 +194,13 @@
 
 <asp:Content ID="Content2" ContentPlaceHolderID="ScriptContent" runat="Server">
     <script src="https://cdn.bootcss.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+    <%--    <link rel="stylesheet" href="content/liMarquee.css">
+    <script src="/scripts/jquery.liMarquee.js"></script>--%>
+
     <script>
         $(document).ready(function () {
             $("#navHome").addClass("active");
+            //$('#divZP').liMarquee();
         });
     </script>
 </asp:Content>

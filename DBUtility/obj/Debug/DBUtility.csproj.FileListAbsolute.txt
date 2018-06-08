@@ -100,3 +100,8 @@ D:\GitNowWork\code\DBUtility\obj\Debug\DBUtility.csprojResolveAssemblyReference.
 D:\GitNowWork\code\DBUtility\obj\Debug\DBUtility.csproj.CoreCompileInputs.cache
 D:\GitNowWork\code\DBUtility\obj\Debug\TFXK.DBUtility.dll
 D:\GitNowWork\code\DBUtility\obj\Debug\TFXK.DBUtility.pdb
+D:\Works\kaojiweb\DBUtility\bin\Debug\TFXK.DBUtility.dll
+D:\Works\kaojiweb\DBUtility\bin\Debug\TFXK.DBUtility.pdb
+D:\Works\kaojiweb\DBUtility\obj\Debug\DBUtility.csproj.CoreCompileInputs.cache
+D:\Works\kaojiweb\DBUtility\obj\Debug\TFXK.DBUtility.dll
+D:\Works\kaojiweb\DBUtility\obj\Debug\TFXK.DBUtility.pdb

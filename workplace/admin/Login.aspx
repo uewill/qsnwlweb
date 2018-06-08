@@ -3,7 +3,7 @@
 <!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
 <html xmlns="http://www.w3.org/1999/xhtml">
 <head runat="server">
-    <title>青龙小学-后台管理登陆</title>
+    <title>中国美术学院成都考级中心-后台管理登陆</title>
     <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
     <link href="css/login.css" rel="stylesheet" type="text/css" />
 </head>
@@ -41,7 +41,7 @@
         </div>
     </form>
   <div id="bottomNav">
-            &copy;Copyright 2010 <a href="../" target="_blank">青龙小学</a>
+            &copy;Copyright 2018 <a href="../" target="_blank">中国美术学院成都考级中心</a>
             保留所有权利</div>
 </body>
 </html>

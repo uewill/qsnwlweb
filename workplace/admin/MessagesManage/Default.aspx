@@ -20,10 +20,11 @@
                                 <table>
                                     <tr>
                                         <td style="width: 200px">
-                                        </td><td style="text-align: right;">
+                                        </td>
+                                        <td style="text-align: right; display:none">
                                             文章号
                                         </td>
-                                        <td>
+                                         <td style="display:none">
                                             <dxe:ASPxTextBox ID="txtAID" runat="server" Width="50px">
                                             </dxe:ASPxTextBox>
                                         </td>
@@ -34,7 +35,7 @@
                                             <dxe:ASPxTextBox ID="txtSearchName" runat="server" Width="100px">
                                             </dxe:ASPxTextBox>
                                         </td>
-                                        <td>
+                                        <td style="display:none;">
                                             <asp:DropDownList ID="ddlState" runat="server">
                                                 <asp:ListItem Text="全部" Value="-1"></asp:ListItem>
                                                 <asp:ListItem Text="未处理" Value="0"></asp:ListItem>
@@ -60,24 +61,27 @@
                         <th width="5%" background="../images/bg.gif" align="center">
                             选中
                         </th>
-                        <th width="10%" background="../images/bg.gif" align="center">
+                       <%-- <th width="10%" background="../images/bg.gif" align="center">
                             来源文章序号
-                        </th>
+                        </th>--%>
                         <th width="15" background="../images/bg.gif" align="center">
                             主题
                         </th>
-                        <th width="8%" background="../images/bg.gif" align="center">
+                        <th width="10%" background="../images/bg.gif" align="center">
                             姓名
                         </th>
                         <th width="25%" background="../images/bg.gif" align="center">
                             内容
+                        </th>  
+                        <th width="10%" background="../images/bg.gif" align="center">
+                            联系方式
                         </th>
                         <th width="10%" background="../images/bg.gif" align="center">
                             时间
                         </th>
-                        <th width="8%" background="../images/bg.gif" align="center">
+                     <%--   <th width="8%" background="../images/bg.gif" align="center">
                             状态
-                        </th>
+                        </th>--%>
                         <th width="10%" background="../images/bg.gif" align="center">
                             基本操作
                         </th>
@@ -88,9 +92,9 @@
                                 <td align="center">
                                     <input id="chkSelected" name="checkname" type="checkbox" runat="server" value='<%# Eval("ID") %>' />
                                 </td>
-                                <td align="center">
+                              <%-- <td align="center">
                                     <%# Eval("qicq") %>[<a href='../../ArticalView.aspx?Key=<%#Eval("qicq") %>'>查看</a>]
-                                </td>
+                                </td>--%>
                                 <td align="center">
                                     <%# Eval("title") %>
                                 </td>
@@ -100,15 +104,18 @@
                                 <td align="center">
                                     <%#Eval("msgcontent") %>
                                 </td>
+                                 <td align="center">
+                                    <%# Eval("userEmail") %>
+                                </td>
                                 <td align="center">
                                     <%# Eval("createtime") %>
                                 </td>
-                                <td align="center">
+                             <%--   <td align="center">
                                     <%#StateName( Eval("stateID")) %>
-                                </td>
+                                </td>--%>
                                 <td align="center">
-                                    <img src="../images/edt.gif" onclick="javascript:location='Action.aspx?type=modify&id=<%# Eval("id") %>';return false;"
-                                        style="cursor: pointer; height: 16px; width: 16px;" alt="修改" />
+                                <%--    <img src="../images/edt.gif" onclick="javascript:location='Action.aspx?type=modify&id=<%# Eval("id") %>';return false;"
+                                        style="cursor: pointer; height: 16px; width: 16px;" alt="修改" />--%>
                                     <asp:ImageButton ID="ibtnDel" ImageUrl="../images/del.gif" ToolTip="删除..." CommandName='<%# Eval("ID") %>'
                                         OnCommand="ibtnDel_OnCommand" OnClientClick="javascript:return confirm('您确定要删除吗');"
                                         runat="server" Height="16px" Width="16px" />

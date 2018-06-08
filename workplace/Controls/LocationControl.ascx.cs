@@ -30,29 +30,44 @@ public partial class Controls_LocationControl : System.Web.UI.UserControl
                 activeNav = "navNews";
             }
             else
-            if (parentCategory.codeNo.Equals("skjzxx"))
+            if (parentCategory.codeNo.Equals("xgwjclass"))
             {
-                activeNav = "navSK";
+                activeNav = "navXGWJ";
             }
             else
-            if (parentCategory.codeNo.Equals("yszx"))
+            if (parentCategory.codeNo.Equals("xzzqclass"))
             {
-                activeNav = "navYSZX";
+                activeNav = "navXZZQ";
             }
             else
-            if (parentCategory.codeNo.Equals("tjyk"))
+            if (parentCategory.codeNo.Equals("kjbzclass"))
             {
-                activeNav = "navTJYK";
+                activeNav = "navKJBZ";
             }
             else
-            if (parentCategory.codeNo.Equals("edu"))
+            if (parentCategory.codeNo.Equals("kdmlclass"))
             {
-                activeNav = "navQSN";
+                activeNav = "navKDML";
             }
             else
-            if (parentCategory.codeNo.Equals("xchq"))
+            if (parentCategory.codeNo.Equals("dqtkclass"))
             {
-                activeNav = "navYC";
+                activeNav = "navDQTK";
+            }
+            else
+            if (parentCategory.codeNo.Equals("zpzsclass"))
+            {
+                activeNav = "navZPZS";
+            }
+            else
+            if (parentCategory.codeNo.Equals("kjjcclass"))
+            {
+                activeNav = "navKJJC";
+            }
+            else
+            if (parentCategory.codeNo.Equals("kdml"))
+            {
+                activeNav = "navKDML";
             }
         }
         return activeNav;

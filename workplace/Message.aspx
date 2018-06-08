@@ -17,28 +17,41 @@
                     <uc1:LocationControl runat="server" ID="LocationControl" />
                 </div>
                 <div class="col-md-12" style="padding-right: 0px;">
-                        <div class="row" style="margin-bottom: 20px;">
-                            <div class="container">
-                    <form class="form-horizontal">
-                        <div class="form-group">
-                            <label for="inputEmail3" class="col-sm-2 control-label">标题</label>
-                            <div class="col-sm-10">
-                                <input type="text" class="form-control" id="inputEmail3" style="max-width:80%" placeholder="标题">
+                    <div class="row" style="margin-bottom: 20px;">
+                        <div class="container">
+                            <div class="form-horizontal">
+                                <div class="form-group">
+                                    <label for="inputEmail3" class="col-sm-2 control-label">标题</label>
+                                    <div class="col-sm-10">
+                                        <input type="text" required runat="server" class="form-control" id="txtTitle" style="max-width: 100%" placeholder="标题">
+                                    </div>
+                                </div>
+                                <div class="form-group">
+                                    <label for="inputPassword3" class="col-sm-2 control-label">内容</label>
+                                    <div class="col-sm-10">
+                                        <textarea class="form-control" required runat="server" id="txtContent" style="max-width: 100%" rows="6" placeholder="请输入留言内容"></textarea>
+                                    </div>
+                                </div>
+                                  <div class="form-group">
+                                    <label for="inputEmail3" class="col-sm-2 control-label">联系人</label>
+                                    <div class="col-sm-10">
+                                        <input type="text" required runat="server" class="form-control" id="txtUserName" style="max-width:60%" placeholder="联系人姓名">
+                                    </div>
+                                </div>
+                                  <div class="form-group">
+                                    <label for="inputEmail3" class="col-sm-2 control-label">联系方式</label>
+                                    <div class="col-sm-10">
+                                        <input type="text" required runat="server" class="form-control" id="txtUserPhone" style="max-width: 60%" placeholder="电话/邮箱/QQ">
+                                    </div>
+                                </div>
+                                <div class="form-group">
+                                    <div class="col-sm-offset-2 col-sm-10">
+                                        <button type="button" runat="server" id="btnSubmit" style="width:120px"  onserverclick="btnSubmit_ServerClick" class="btn btn-default">提 交 </button>
+                                    </div>
+                                </div>
                             </div>
                         </div>
-                        <div class="form-group" style="margin-top:40px;display:block;">
-                            <label for="inputPassword3" class="col-sm-2 control-label">内容</label>
-                            <div class="col-sm-10">
-                          <textarea class="form-control" style="max-width:100%"  rows="6"></textarea>
-                            </div>
-                        </div>
-                        <div class="form-group" style="margin-top:180px;display:block;">
-                            <div class="col-sm-offset-2 col-sm-10">
-                                <button type="submit" class="btn btn-default"> 提 交 </button>
-                            </div>
-                        </div>
-                    </form>
-                            </div></div>
+                    </div>
                 </div>
                 <div class="col-md-12 text-right" style="margin-top: 30px; margin-bottom: 30px; height: 30px;">
                     <!-- JiaThis Button BEGIN -->

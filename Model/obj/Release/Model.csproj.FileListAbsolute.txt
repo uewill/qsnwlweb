@@ -1,3 +1,10 @@
 D:\GitNowWork\code\Model\bin\Release\TFXK.Model.dll
 D:\GitNowWork\code\Model\obj\Release\Model.csproj.CoreCompileInputs.cache
 D:\GitNowWork\code\Model\obj\Release\TFXK.Model.dll
+D:\Works\qsnwlweb\Model\bin\Release\TFXK.Model.dll
+D:\Works\qsnwlweb\Model\obj\Release\Model.csprojResolveAssemblyReference.cache
+D:\Works\qsnwlweb\Model\obj\Release\Model.csproj.CoreCompileInputs.cache
+D:\Works\qsnwlweb\Model\obj\Release\TFXK.Model.dll
+D:\Works\kaojiweb\Model\bin\Release\TFXK.Model.dll
+D:\Works\kaojiweb\Model\obj\Release\Model.csproj.CoreCompileInputs.cache
+D:\Works\kaojiweb\Model\obj\Release\TFXK.Model.dll

@@ -141,3 +141,12 @@ D:\GitNowWork\code\IDAL\obj\Debug\IDAL.csprojResolveAssemblyReference.cache
 D:\GitNowWork\code\IDAL\obj\Debug\IDAL.csproj.CoreCompileInputs.cache
 D:\GitNowWork\code\IDAL\obj\Debug\CodematicDemo.IDAL.dll
 D:\GitNowWork\code\IDAL\obj\Debug\CodematicDemo.IDAL.pdb
+D:\Works\kaojiweb\IDAL\bin\Debug\CodematicDemo.IDAL.dll
+D:\Works\kaojiweb\IDAL\bin\Debug\CodematicDemo.IDAL.pdb
+D:\Works\kaojiweb\IDAL\bin\Debug\TFXK.Model.dll
+D:\Works\kaojiweb\IDAL\bin\Debug\TFXK.Model.pdb
+D:\Works\kaojiweb\IDAL\obj\Debug\IDAL.csprojResolveAssemblyReference.cache
+D:\Works\kaojiweb\IDAL\obj\Debug\IDAL.csproj.CoreCompileInputs.cache
+D:\Works\kaojiweb\IDAL\obj\Debug\IDAL.csproj.CopyComplete
+D:\Works\kaojiweb\IDAL\obj\Debug\CodematicDemo.IDAL.dll
+D:\Works\kaojiweb\IDAL\obj\Debug\CodematicDemo.IDAL.pdb

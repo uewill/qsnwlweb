@@ -20,13 +20,12 @@
                         <div class="col-md-12">
                             <asp:Repeater ID="rptDataList" runat="server">
                                 <ItemTemplate>
-                                    <div class="col-sm-6 col-md-4" style="margin-top: 10px;">
+                                    <div class="col-sm-4 col-md-3" style="margin-top: 10px;">
                                         <a href="ArticalDetails.aspx?id=<%#Eval("id") %>" target="_blank" title="<%#Eval("title") %>">
                                             <div class="thumbnail">
-                                                <img src="/uploads/<%#Eval("imgPath") %>" style="height: 180px;" title="<%#Eval("title") %>">
-                                                <div class="caption" style="overflow: hidden; height:120px;">
-                                                    <h4 class=" text-center"><%#Eval("title") %></h4>
-                                                    <p style='<%# GetVisable(Eval("description"))%>'><%# TFXK.Common.StrHelper.CutString(TFXK.Common.StrHelper.checkStr( Eval("description")+""),70) %></p>
+                                                <img src="/uploads/<%#Eval("imgPath") %>" style="height:200px;" title="<%#Eval("title") %>">
+                                                <div class="caption" style="overflow: hidden; height:40px;">
+                                                    <h5 class=" text-center"><%#Eval("title") %></h5>
                                                 </div>
                                             </div>
                                         </a>

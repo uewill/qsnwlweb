@@ -245,5 +245,42 @@ namespace TFXK.DALFactory
             return (TFXK.IDAL.IUserJiamenDAL)objType;
         }
 
+
+        /// <summary>
+        /// 创建TestingCenter数据层接口。
+        /// </summary>
+        public static TFXK.IDAL.ITestingCenter CreateTestingCenter()
+        {
+
+            string ClassNamespace = AssemblyPath + ".TestingCenter";
+            object objType = CreateObject(AssemblyPath, ClassNamespace);
+            return (TFXK.IDAL.ITestingCenter)objType;
+        }
+
+
+        /// <summary>
+        /// 创建TestingPlan数据层接口。
+        /// </summary>
+        public static TFXK.IDAL.ITestingPlan CreateTestingPlan()
+        {
+
+            string ClassNamespace = AssemblyPath + ".TestingPlan";
+            object objType = CreateObject(AssemblyPath, ClassNamespace);
+            return (TFXK.IDAL.ITestingPlan)objType;
+        }
+
+
+        /// <summary>
+        /// 创建TestingStudent数据层接口。
+        /// </summary>
+        public static TFXK.IDAL.ITestingStudent CreateTestingStudent()
+        {
+
+            string ClassNamespace = AssemblyPath + ".TestingStudent";
+            object objType = CreateObject(AssemblyPath, ClassNamespace);
+            return (TFXK.IDAL.ITestingStudent)objType;
+        }
+
+
     }
 }

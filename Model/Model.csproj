@@ -131,6 +131,9 @@
     <Compile Include="ProExtCategory.cs" />
     <Compile Include="Role.cs" />
     <Compile Include="SiteConfig.cs" />
+    <Compile Include="TestingCenter.cs" />
+    <Compile Include="TestingPlan.cs" />
+    <Compile Include="TestingStudent.cs" />
     <Compile Include="UserOrders.cs" />
     <Compile Include="Users.cs" />
     <Compile Include="TourCategory.cs" />

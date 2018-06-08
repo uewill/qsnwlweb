@@ -38,13 +38,13 @@ $("#fileUpload").uploadify({
 		}
 	});
 	$("#ctl00_ContentPlaceHolder1_ASPxRoundPanel1_txtSource_I").focus(function (){
-        if ($('#ctl00_ContentPlaceHolder1_ASPxRoundPanel1_txtSource_I').val() =='世纪年华艺术中心'){
+        if ($('#ctl00_ContentPlaceHolder1_ASPxRoundPanel1_txtSource_I').val() =='中国美术学院成都考级中心'){
         $('#ctl00_ContentPlaceHolder1_ASPxRoundPanel1_txtSource_I').val('');}
   });
   
   $("#ctl00_ContentPlaceHolder1_ASPxRoundPanel1_txtSource_I").blur(function (){
       if($('#ctl00_ContentPlaceHolder1_ASPxRoundPanel1_txtSource_I').val()==''){
-          $('#ctl00_ContentPlaceHolder1_ASPxRoundPanel1_txtSource_I').val('世纪年华艺术中心');
+          $('#ctl00_ContentPlaceHolder1_ASPxRoundPanel1_txtSource_I').val('中国美术学院成都考级中心');
       }
   });
 });
@@ -55,12 +55,15 @@ $("#fileUpload").uploadify({
     <script src="../../Kinde/kindeditor.js" type="text/javascript"></script>
 
     <script type="text/javascript">
-KE.show({
-    id : 'ctl00_ContentPlaceHolder1_ASPxRoundPanel1_txtContent',
-    imageUploadJson : '../../Handler/uploadfile.ashx',
-    fileManagerJson :' ../../Handler/Managefile_json.ashx',
-    allowFileManager : true
-});
+	KindEditor.ready(function(K) {
+			var editor1 = K.create('#ctl00_ContentPlaceHolder1_ASPxRoundPanel1_txtContent', {
+				cssPath : '../../kinde/plugins/code/prettify.css',
+				uploadJson : '../../kinde/asp.net/upload_json.ashx',
+				fileManagerJson : '../../kinde/asp.net/file_manager_json.ashx',
+				allowFileManager : true,
+			});
+		});
+
     </script>
 
     <br />
@@ -99,7 +102,7 @@ KE.show({
                             <table>
                                 <tr>
                                     <td>
-                                        <dxe:ASPxTextBox ID="txtSource" Text="世纪年华艺术中心" Width="150px" runat="server">
+                                        <dxe:ASPxTextBox ID="txtSource" Text="中国美术学院成都考级中心" Width="150px" runat="server">
                                         </dxe:ASPxTextBox>
                                     </td>
                                     <td>

@@ -3,3 +3,15 @@ D:\GitNowWork\code\IDAL\bin\Release\TFXK.Model.dll
 D:\GitNowWork\code\IDAL\obj\Release\IDAL.csprojResolveAssemblyReference.cache
 D:\GitNowWork\code\IDAL\obj\Release\IDAL.csproj.CoreCompileInputs.cache
 D:\GitNowWork\code\IDAL\obj\Release\CodematicDemo.IDAL.dll
+D:\Works\qsnwlweb\IDAL\bin\Release\CodematicDemo.IDAL.dll
+D:\Works\qsnwlweb\IDAL\bin\Release\TFXK.Model.dll
+D:\Works\qsnwlweb\IDAL\obj\Release\IDAL.csprojResolveAssemblyReference.cache
+D:\Works\qsnwlweb\IDAL\obj\Release\IDAL.csproj.CoreCompileInputs.cache
+D:\Works\qsnwlweb\IDAL\obj\Release\IDAL.csproj.CopyComplete
+D:\Works\qsnwlweb\IDAL\obj\Release\CodematicDemo.IDAL.dll
+D:\Works\kaojiweb\IDAL\bin\Release\CodematicDemo.IDAL.dll
+D:\Works\kaojiweb\IDAL\bin\Release\TFXK.Model.dll
+D:\Works\kaojiweb\IDAL\obj\Release\IDAL.csprojResolveAssemblyReference.cache
+D:\Works\kaojiweb\IDAL\obj\Release\IDAL.csproj.CoreCompileInputs.cache
+D:\Works\kaojiweb\IDAL\obj\Release\IDAL.csproj.CopyComplete
+D:\Works\kaojiweb\IDAL\obj\Release\CodematicDemo.IDAL.dll

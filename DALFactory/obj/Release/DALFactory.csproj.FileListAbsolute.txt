@@ -4,3 +4,17 @@ D:\GitNowWork\code\DALFactory\bin\Release\TFXK.Model.dll
 D:\GitNowWork\code\DALFactory\obj\Release\DALFactory.csprojResolveAssemblyReference.cache
 D:\GitNowWork\code\DALFactory\obj\Release\DALFactory.csproj.CoreCompileInputs.cache
 D:\GitNowWork\code\DALFactory\obj\Release\TFXK.DALFactory.dll
+D:\Works\qsnwlweb\DALFactory\bin\Release\TFXK.DALFactory.dll
+D:\Works\qsnwlweb\DALFactory\bin\Release\CodematicDemo.IDAL.dll
+D:\Works\qsnwlweb\DALFactory\bin\Release\TFXK.Model.dll
+D:\Works\qsnwlweb\DALFactory\obj\Release\DALFactory.csprojResolveAssemblyReference.cache
+D:\Works\qsnwlweb\DALFactory\obj\Release\DALFactory.csproj.CoreCompileInputs.cache
+D:\Works\qsnwlweb\DALFactory\obj\Release\DALFactory.csproj.CopyComplete
+D:\Works\qsnwlweb\DALFactory\obj\Release\TFXK.DALFactory.dll
+D:\Works\kaojiweb\DALFactory\bin\Release\TFXK.DALFactory.dll
+D:\Works\kaojiweb\DALFactory\bin\Release\CodematicDemo.IDAL.dll
+D:\Works\kaojiweb\DALFactory\bin\Release\TFXK.Model.dll
+D:\Works\kaojiweb\DALFactory\obj\Release\DALFactory.csprojResolveAssemblyReference.cache
+D:\Works\kaojiweb\DALFactory\obj\Release\DALFactory.csproj.CoreCompileInputs.cache
+D:\Works\kaojiweb\DALFactory\obj\Release\DALFactory.csproj.CopyComplete
+D:\Works\kaojiweb\DALFactory\obj\Release\TFXK.DALFactory.dll

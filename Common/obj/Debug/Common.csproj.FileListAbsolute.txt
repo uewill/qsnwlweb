@@ -100,3 +100,9 @@ D:\GitNowWork\code\Common\obj\Debug\Common.csprojResolveAssemblyReference.cache
 D:\GitNowWork\code\Common\obj\Debug\Common.csproj.CoreCompileInputs.cache
 D:\GitNowWork\code\Common\obj\Debug\TFXK.Common.dll
 D:\GitNowWork\code\Common\obj\Debug\TFXK.Common.pdb
+D:\Works\kaojiweb\Common\bin\Debug\TFXK.Common.dll
+D:\Works\kaojiweb\Common\bin\Debug\TFXK.Common.pdb
+D:\Works\kaojiweb\Common\obj\Debug\Common.csproj.CoreCompileInputs.cache
+D:\Works\kaojiweb\Common\obj\Debug\TFXK.Common.dll
+D:\Works\kaojiweb\Common\obj\Debug\TFXK.Common.pdb
+D:\Works\kaojiweb\Common\obj\Debug\Common.csprojResolveAssemblyReference.cache

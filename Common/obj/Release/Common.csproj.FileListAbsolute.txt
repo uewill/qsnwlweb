@@ -9,3 +9,14 @@ D:\GitNowWork\code\Common\obj\Release\Common.csprojResolveAssemblyReference.cach
 D:\GitNowWork\code\Common\obj\Release\Common.csproj.CoreCompileInputs.cache
 D:\GitNowWork\code\Common\obj\Release\TFXK.Common.dll
 D:\GitNowWork\code\Common\obj\Release\TFXK.Common.pdb
+D:\Works\qsnwlweb\Common\bin\Release\TFXK.Common.dll
+D:\Works\qsnwlweb\Common\bin\Release\TFXK.Common.pdb
+D:\Works\qsnwlweb\Common\obj\Release\Common.csprojResolveAssemblyReference.cache
+D:\Works\qsnwlweb\Common\obj\Release\Common.csproj.CoreCompileInputs.cache
+D:\Works\qsnwlweb\Common\obj\Release\TFXK.Common.dll
+D:\Works\qsnwlweb\Common\obj\Release\TFXK.Common.pdb
+D:\Works\kaojiweb\Common\bin\Release\TFXK.Common.dll
+D:\Works\kaojiweb\Common\bin\Release\TFXK.Common.pdb
+D:\Works\kaojiweb\Common\obj\Release\Common.csproj.CoreCompileInputs.cache
+D:\Works\kaojiweb\Common\obj\Release\TFXK.Common.dll
+D:\Works\kaojiweb\Common\obj\Release\TFXK.Common.pdb
