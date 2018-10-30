@@ -76,7 +76,7 @@
                 uploadbutton2.submit();
             });
 
-             var uploadbutton3 = K.uploadbutton({
+            var uploadbutton3 = K.uploadbutton({
                 button: K('#insertfile3')[0],
                 fieldName: 'imgFile',
                 url: '../../kinde/asp.net/upload_json.ashx',
@@ -104,27 +104,25 @@
 
     <div class="container">
         <div class="row">
-            <div class="col-xs-2"></div>
-            <div class="col-xs-8">
+            <div class="col-md-2"></div>
+            <div class="col-md-8">
 
                 <div class="jumbotron">
                     <div class="row" style="margin-bottom: 20px">
-                        <div class="col-xs-12">
-                            <table>
-                                <tr>
-                                    <td>
-                                        <img src="images/logo.png" />&nbsp;&nbsp;&nbsp;&nbsp;</td>
-                                    <td>
-                                        <h3>全国社会美术水平考级 - 成都考区</h3>
-                                    </td>
-                                </tr>
-                            </table>
-                            <h3>考点 - 更新资料</h3>
+                        <div class="col-md-4 text-center">
+                            <img src="images/logo.png" class="img-responsive" />
+                        </div>
+                        <div class="col-md-8">
+                            <h4>全国社会美术水平考级 - 成都考区</h4>
+                        </div>
+
+                        <div class="col-md-12">
+                            <h3>更新资料</h3>
                         </div>
                     </div>
                     <form runat="server">
                         <div class="row">
-                            <div class="col-xs-9">
+                            <div class="col-md-9">
                                 <div class="form-group">
                                     <label for="exampleInputEmail1">身份证号： <span style="color: red">*</span></label>
                                     <input id="txtID" runat="server" type="text" class="form-control" placeholder="身份证号">
@@ -132,7 +130,7 @@
                             </div>
                         </div>
                         <div class="row">
-                            <div class="col-xs-6">
+                            <div class="col-md-6">
                                 <div class="form-group">
                                     <label for="exampleInputEmail1">身份证正面照 <span style="color: red">*</span></label>
                                     <input id="txtIDImg1" runat="server" type="hidden" class="form-control" placeholder="身份证正面照">
@@ -142,13 +140,13 @@
 
                                 <img id="imgID1" runat="server" src="/images/nopic.jpg" height="120" alt="..." class="img-rounded">
                             </div>
-                            <div class="col-xs-6">
+                            <div class="col-md-6">
                                 示例：
                                 <img src="images/id1.png" height="120" alt="..." class="img-rounded">
                             </div>
                         </div>
                         <div class="row">
-                            <div class="col-xs-6">
+                            <div class="col-md-6">
                                 <div class="form-group">
                                     <label for="exampleInputEmail1">身份证背面照 <span style="color: red">*</span></label>
                                     <input id="txtIDImg2" runat="server" type="hidden" class="form-control" placeholder="身份证背面照" />
@@ -157,21 +155,21 @@
 
                                 <img id="imgID2" runat="server" src="/images/nopic.jpg" height="120" alt="..." class="img-rounded">
                             </div>
-                            <div class="col-xs-6">
+                            <div class="col-md-6">
                                 示例：
                                 <img src="images/id2.png" height="120" alt="..." class="img-rounded">
                             </div>
                         </div>
                         <div class="row">
-                            <div class="col-xs-6">
+                            <div class="col-md-6">
                                 <div class="form-group">
                                     <label for="exampleInputEmail1">营业执照 <span style="color: red">*</span></label>
                                     <input id="txtYYZZ" runat="server" type="hidden" class="form-control" placeholder="营业执照">
                                     <input type="button" id="insertfile3" value="选择文件" />
                                 </div>
                                 <img id="imgID3" runat="server" src="/images/nopic.jpg" height="120" alt="..." class="img-rounded">
-                              </div>
-                            <div class="col-xs-6">
+                            </div>
+                            <div class="col-md-6">
                                 示例：
                                 <img src="images/yyzz3.png" height="120" alt="..." class="img-rounded">
                             </div>
@@ -184,7 +182,7 @@
 
                 </div>
             </div>
-            <div class="col-xs-2"></div>
+            <div class="col-md-2"></div>
 
         </div>
 

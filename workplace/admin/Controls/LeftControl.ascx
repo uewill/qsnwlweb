@@ -57,11 +57,27 @@
                         <dxnb:ASPxNavBar ID="ASPxNavBar3" runat="server" Width="100%" AutoCollapse="false"
                             EncodeHtml="False" AllowSelectItem="True" Visible="true">
                             <Groups>
-                                <dxnb:NavBarGroup Name="navHYGL" Visible="true" Text="考级管理">
+                                <dxnb:NavBarGroup Name="navHYGL" Visible="true" Text="考点考级管理">
                                     <Items>
                                         <dxnb:NavBarItem NavigateUrl="~/admin/ExamManage/default.aspx" Text="考点列表" Target="Frame1">
                                         </dxnb:NavBarItem>
                                         <dxnb:NavBarItem NavigateUrl="~/admin/ExamPlanManage/default.aspx" Text="考级计划" Target="Frame1">
+                                        </dxnb:NavBarItem>
+                                    </Items>
+                                </dxnb:NavBarGroup>
+                            </Groups>
+                        </dxnb:ASPxNavBar>
+                            <dxnb:ASPxNavBar ID="ASPxNavBar2" runat="server" Width="100%" AutoCollapse="false"
+                            EncodeHtml="False" AllowSelectItem="True" Visible="true">
+                            <Groups>
+                                <dxnb:NavBarGroup Name="navHYGL" Visible="true" Text="个人考级管理">
+                                    <Items>   
+                                        <dxnb:NavBarItem NavigateUrl="~/admin/ExamPersonUserManage/default.aspx" Text="考生管理" Target="Frame1">
+                                        </dxnb:NavBarItem>
+                                        <dxnb:NavBarItem NavigateUrl="~/admin/ExamPersonPlanManage/default.aspx" Text="考级计划" Target="Frame1">
+                                        </dxnb:NavBarItem>
+                                       
+                                         <dxnb:NavBarItem NavigateUrl="~/admin/ExamPersonManage/default.aspx" Text="报考记录" Target="Frame1">
                                         </dxnb:NavBarItem>
                                     </Items>
                                 </dxnb:NavBarGroup>

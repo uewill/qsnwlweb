@@ -12,6 +12,10 @@ public partial class Exam_signout : System.Web.UI.Page
         var cookie = new HttpCookie("ExamID");
         cookie.Expires = DateTime.Now.AddHours(-1);
         Response.Cookies.Add(cookie);
+
+        var pcookie = new HttpCookie("PersonID");
+        pcookie.Expires = DateTime.Now.AddHours(-1);
+        Response.Cookies.Add(pcookie);
         Response.Redirect("Default.aspx");
     }
 }

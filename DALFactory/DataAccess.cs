@@ -280,7 +280,38 @@ namespace TFXK.DALFactory
             object objType = CreateObject(AssemblyPath, ClassNamespace);
             return (TFXK.IDAL.ITestingStudent)objType;
         }
+        /// <summary>
+        /// 创建TestingPerson数据层接口。
+        /// </summary>
+        public static TFXK.IDAL.ITestingPerson CreateTestingPerson()
+        {
+
+            string ClassNamespace = AssemblyPath + ".TestingPerson";
+            object objType = CreateObject(AssemblyPath, ClassNamespace);
+            return (TFXK.IDAL.ITestingPerson)objType;
+        }
 
 
+        /// <summary>
+        /// 创建TestingPersonExam数据层接口。
+        /// </summary>
+        public static TFXK.IDAL.ITestingPersonExam CreateTestingPersonExam()
+        {
+
+            string ClassNamespace = AssemblyPath + ".TestingPersonExam";
+            object objType = CreateObject(AssemblyPath, ClassNamespace);
+            return (TFXK.IDAL.ITestingPersonExam)objType;
+        }
+
+        /// <summary>
+        /// 创建TestingPersonPlan数据层接口。
+        /// </summary>
+        public static TFXK.IDAL.ITestingPersonPlan CreateTestingPersonPlan()
+        {
+
+            string ClassNamespace = AssemblyPath + ".TestingPersonPlan";
+            object objType = CreateObject(AssemblyPath, ClassNamespace);
+            return (TFXK.IDAL.ITestingPersonPlan)objType;
+        }
     }
 }

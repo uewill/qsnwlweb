@@ -10,6 +10,7 @@ using TFXK.Common;
 public class ExamAuthHelper
 {
     private static TFXK.BLL.TestingCenter testingCenterBLL = new TFXK.BLL.TestingCenter();
+    private static TFXK.BLL.TestingPerson testingPersonBLL = new TFXK.BLL.TestingPerson();
     public static TFXK.Model.TestingCenter GetAuthData(HttpContext context)
     {
         //
@@ -32,6 +33,28 @@ public class ExamAuthHelper
             return testingCenterBLL.GetModel(examid);
         }
     }
+    public static TFXK.Model.TestingPerson GetPersonAuthData(HttpContext context)
+    {
+        //
+        // TODO: 在此处添加构造函数逻辑
+        //
+        var exidcookie = context.Request.Cookies.Get("PersonID");
+        string exidcookievalue = string.Empty;
+        int examid = 0;
+        if (exidcookie != null && !string.IsNullOrEmpty(exidcookie.Value))
+        {
+            exidcookievalue = Security.DecryptDES(exidcookie.Value, "UEMASTER");
+        }
+        if (exidcookie == null || !int.TryParse(exidcookievalue, out examid) || examid <= 0)
+        {
+            context.Response.Redirect("/Exam/Personal/Login.aspx");
+            return null;
+        }
+        else
+        {
+           return testingPersonBLL.GetModel(examid);
+        }
+    }
     public static int GetAuthCenterID(HttpContext context) {
         var exidcookie = context.Request.Cookies.Get("ExamID");
         string exidcookievalue = string.Empty;
@@ -43,6 +66,25 @@ public class ExamAuthHelper
         if (exidcookie == null || !int.TryParse(exidcookievalue, out examid) || examid <= 0)
         {
             context.Response.Redirect("/Exam/Login.aspx");
+            return 0;
+        }
+        else
+        {
+            return examid;
+        }
+    }
+    public static int GetAuthPersonID(HttpContext context)
+    {
+        var exidcookie = context.Request.Cookies.Get("PersonID");
+        string exidcookievalue = string.Empty;
+        int examid = 0;
+        if (exidcookie != null && !string.IsNullOrEmpty(exidcookie.Value))
+        {
+            exidcookievalue = Security.DecryptDES(exidcookie.Value, "UEMASTER");
+        }
+        if (exidcookie == null || !int.TryParse(exidcookievalue, out examid) || examid <= 0)
+        {
+            context.Response.Redirect("/Exam/Personal/Login.aspx");
             return 0;
         }
         else

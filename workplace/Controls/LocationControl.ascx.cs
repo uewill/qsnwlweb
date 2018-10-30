@@ -69,7 +69,56 @@ public partial class Controls_LocationControl : System.Web.UI.UserControl
             {
                 activeNav = "navKDML";
             }
+            else
+            if (parentCategory.codeNo.Equals("dqtk2"))
+            {
+                activeNav = "navDQTK2";
+            }
+            
         }
         return activeNav;
+    }
+
+
+    public string GetParentLink()
+    {
+        string linkCode = string.Empty;
+        switch (parentCategory.codeNo)
+        {
+            case "zxgk":
+                linkCode = "lxwm";
+                break;
+            case "xwzx":
+                linkCode = "zxdt";
+                break;
+            case "xzzqclass":
+                linkCode = "xzzq";
+                break;
+            case "kjbzclass":
+                linkCode = "kjbz";
+                break;
+            case "kdmlclass":
+                linkCode = "kdml";
+                break;
+            case "dqtkclass":
+                linkCode = "dqtk";
+                break;
+            case "dqtk2":
+                linkCode = "dqtktktz";
+                break;
+            case "zpzsclass":
+                linkCode = "zpzs";
+                break;
+            case "kjjcclass":
+                linkCode = "kjjc";
+                break;
+            case "cjcxclass":
+                linkCode = "cjcx";
+                break;
+            default:
+                return string.Empty;
+        }
+
+        return "<a style=\"color:#202020;\" href=\"/ArticalList.aspx?code=" + linkCode + "\">" + parentCategory.title + "</a>";
     }
 }

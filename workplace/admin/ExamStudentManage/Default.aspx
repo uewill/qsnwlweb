@@ -66,10 +66,10 @@
                         </th>
                         <th width="5%" background="../images/bg.gif" align="center">身份证号
                         </th>
-                        <th width="5%" background="../images/bg.gif" align="center">照片
+                       <%-- <th width="5%" background="../images/bg.gif" align="center">照片
                         </th>
                         <th width="5%" background="../images/bg.gif" align="center">作品
-                        </th>
+                        </th>--%>
                         <%--  <th width="10%" background="../images/bg.gif" align="center">基本操作
                         </th>--%>
                     </tr>
@@ -88,11 +88,11 @@
                                 <td><%# GetCategoryName(Eval("Country")) %>&nbsp;/&nbsp;<%# GetCategoryName(Eval("EthnicGroup")) %></td>
                                 <td><%#Eval("Birthday","{0:yyyy/MM/dd}") %></td>
                                 <td><%#Eval("IDNumber") %></td>
-                                <td>
+                               <%-- <td>
                                     <img src="<%# GetImagePath(Eval("UserHeadImage")) %>" width="80" /></td>
                                 <td>
                                     <img src="<%# GetImagePath(Eval("UserWorkImage")) %>" width="80" />
-                                </td>
+                                </td>--%>
                                 <%-- <td align="center">
                                     <img src="../images/edt.gif" onclick="javascript:location='Action.aspx?type=modify&id=<%# Eval("id") %>';return false;"
                                         style="cursor: pointer; height: 16px; width: 16px;" alt="修改" />

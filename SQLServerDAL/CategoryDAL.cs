@@ -95,7 +95,7 @@ namespace TFXK.SQLServerDAL
                 }
                 if (ds.Tables[0].Rows[0]["typeID"].ToString() != "")
                 {
-                    model.stateID = int.Parse(ds.Tables[0].Rows[0]["typeID"].ToString());
+                    model.typeID = int.Parse(ds.Tables[0].Rows[0]["typeID"].ToString());
                 }
                 model.outLink = ds.Tables[0].Rows[0]["outLink"].ToString();
                 return model;
@@ -106,6 +106,56 @@ namespace TFXK.SQLServerDAL
             }
 
         }
+
+        public TFXK.Model.Category GetModelByName(string code)
+        {
+
+            StringBuilder strSql = new StringBuilder();
+            strSql.Append("select id,title,codeNo,parentID,description,orderId,imgPath,stateID,typeID,outLink from tb_Category ");
+            strSql.Append(" where title=@code ");
+            SqlParameter[] parameters = {
+                    new SqlParameter("@code", SqlDbType.VarChar,50)};
+            parameters[0].Value = code;
+
+            TFXK.Model.Category model = new TFXK.Model.Category();
+            DataSet ds = DbHelperSQL.Query(strSql.ToString(), parameters);
+            if (ds.Tables[0].Rows.Count > 0)
+            {
+                if (ds.Tables[0].Rows[0]["id"].ToString() != "")
+                {
+                    model.id = int.Parse(ds.Tables[0].Rows[0]["id"].ToString());
+                }
+                model.title = ds.Tables[0].Rows[0]["title"].ToString();
+                model.codeNo = ds.Tables[0].Rows[0]["codeNo"].ToString();
+                if (ds.Tables[0].Rows[0]["parentID"].ToString() != "")
+                {
+                    model.parentID = int.Parse(ds.Tables[0].Rows[0]["parentID"].ToString());
+                }
+                model.description = ds.Tables[0].Rows[0]["description"].ToString();
+                if (ds.Tables[0].Rows[0]["orderId"].ToString() != "")
+                {
+                    model.orderId = int.Parse(ds.Tables[0].Rows[0]["orderId"].ToString());
+                }
+                model.imgPath = ds.Tables[0].Rows[0]["imgPath"].ToString();
+                if (ds.Tables[0].Rows[0]["stateID"].ToString() != "")
+                {
+                    model.stateID = int.Parse(ds.Tables[0].Rows[0]["stateID"].ToString());
+                }
+                if (ds.Tables[0].Rows[0]["typeID"].ToString() != "")
+                {
+                    model.typeID = int.Parse(ds.Tables[0].Rows[0]["typeID"].ToString());
+                }
+                model.outLink = ds.Tables[0].Rows[0]["outLink"].ToString();
+                return model;
+            }
+            else
+            {
+                return null;
+            }
+
+        }
+
+        
 
         /// <summary>
         /// 上移下移时,更新同级的排序编号

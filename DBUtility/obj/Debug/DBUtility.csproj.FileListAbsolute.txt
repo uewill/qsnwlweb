@@ -105,3 +105,10 @@ D:\Works\kaojiweb\DBUtility\bin\Debug\TFXK.DBUtility.pdb
 D:\Works\kaojiweb\DBUtility\obj\Debug\DBUtility.csproj.CoreCompileInputs.cache
 D:\Works\kaojiweb\DBUtility\obj\Debug\TFXK.DBUtility.dll
 D:\Works\kaojiweb\DBUtility\obj\Debug\TFXK.DBUtility.pdb
+D:\Works\kaojiweb\DBUtility\obj\Debug\DBUtility.csprojResolveAssemblyReference.cache
+D:\Works\GitWorks\hwbkj\gmkaojiweb\DBUtility\bin\Debug\TFXK.DBUtility.dll
+D:\Works\GitWorks\hwbkj\gmkaojiweb\DBUtility\bin\Debug\TFXK.DBUtility.pdb
+D:\Works\GitWorks\hwbkj\gmkaojiweb\DBUtility\obj\Debug\DBUtility.csproj.CoreCompileInputs.cache
+D:\Works\GitWorks\hwbkj\gmkaojiweb\DBUtility\obj\Debug\TFXK.DBUtility.dll
+D:\Works\GitWorks\hwbkj\gmkaojiweb\DBUtility\obj\Debug\TFXK.DBUtility.pdb
+D:\Works\GitWorks\hwbkj\gmkaojiweb\DBUtility\obj\Debug\DBUtility.csprojResolveAssemblyReference.cache

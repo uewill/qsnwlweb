@@ -32,10 +32,10 @@ public partial class _Default : System.Web.UI.Page
         rptTuiJianNav.DataSource = data;
         rptTuiJianNav.DataBind();
 
-        rptNewsList.DataSource = bllArtical.GetAllListByCodeNo_Web(11, 1, "xwzx", out count);
+        rptNewsList.DataSource = bllArtical.GetAllListByCodeNo_Web(10, 1, "xwzx", out count);
         rptNewsList.DataBind();
 
-        rptZPZS.DataSource = bllArtical.GetAllListByCodeNo_Web(10, 1, "zpzs", out count);
+        rptZPZS.DataSource = bllArtical.GetAllListByCodeNo_Web(12, 1, "zpzs", out count);
         rptZPZS.DataBind();
 
         rptXGWJ.DataSource = bllArtical.GetAllListByCodeNo_Web(10, 1, "xgwj", out count);

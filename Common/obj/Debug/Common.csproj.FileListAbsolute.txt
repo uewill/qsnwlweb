@@ -106,3 +106,9 @@ D:\Works\kaojiweb\Common\obj\Debug\Common.csproj.CoreCompileInputs.cache
 D:\Works\kaojiweb\Common\obj\Debug\TFXK.Common.dll
 D:\Works\kaojiweb\Common\obj\Debug\TFXK.Common.pdb
 D:\Works\kaojiweb\Common\obj\Debug\Common.csprojResolveAssemblyReference.cache
+D:\Works\GitWorks\hwbkj\gmkaojiweb\Common\bin\Debug\TFXK.Common.dll
+D:\Works\GitWorks\hwbkj\gmkaojiweb\Common\bin\Debug\TFXK.Common.pdb
+D:\Works\GitWorks\hwbkj\gmkaojiweb\Common\obj\Debug\Common.csprojResolveAssemblyReference.cache
+D:\Works\GitWorks\hwbkj\gmkaojiweb\Common\obj\Debug\Common.csproj.CoreCompileInputs.cache
+D:\Works\GitWorks\hwbkj\gmkaojiweb\Common\obj\Debug\TFXK.Common.dll
+D:\Works\GitWorks\hwbkj\gmkaojiweb\Common\obj\Debug\TFXK.Common.pdb

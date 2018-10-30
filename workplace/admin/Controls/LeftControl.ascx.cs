@@ -33,10 +33,10 @@ public partial class admin_Controls_LeftControl : System.Web.UI.UserControl
                 Users UserModel = bllUser.GetModelByUserName(Context.User.Identity.Name);
                 if (UserModel != null)
                 {
-                    if (UserModel.roleid == 1)
-                    {
+                    //if (UserModel.roleid == 1)
+                    //{
                         InitTree();
-                    }
+                    //}
                 }
             }
         }
@@ -103,7 +103,7 @@ public partial class admin_Controls_LeftControl : System.Web.UI.UserControl
 
             if (!bll.HasChild(int.Parse(dr["id"].ToString())))
             {
-               
+
                 //if (dr["parentid"].ToString().Equals("18"))
                 //{
                 //    myNode.NavigateUrl = "../ProductsManage/?parentId=" + dr["id"];
@@ -119,26 +119,29 @@ public partial class admin_Controls_LeftControl : System.Web.UI.UserControl
                 //else
                 //{
 
-                    if (dr["codeNo"].ToString().Equals("jdlygstj"))
+                if (dr["codeNo"].ToString().Equals("jdlygstj"))
+                {
+                    myNode.NavigateUrl = "../CompanyLineManage/";
+                }
+                else if (dr["codeNo"].ToString().Equals("bkbhpz")) {
+                    myNode.NavigateUrl = "../CategoryManage/BaoKaoNumber.aspx?code=" + dr["codeNo"];
+                }
+                else
+                {
+                    //内容展示栏目 分类
+                    if (dr["typeID"].ToString().Equals("0"))
                     {
-                        myNode.NavigateUrl = "../CompanyLineManage/";
+                        myNode.NavigateUrl = "../CategoryManage/Description.aspx?code=" + dr["codeNo"];
+                    }
+                    else if (dr["typeID"].ToString().Equals("3"))
+                    {
+                        continue;
                     }
                     else
                     {
-                        //内容展示栏目 分类
-                        if (dr["typeID"].ToString().Equals("0"))
-                        {
-                            myNode.NavigateUrl = "../CategoryManage/Description.aspx?code=" + dr["codeNo"];
-                        }
-                        else if (dr["typeID"].ToString().Equals("3"))
-                        {
-                            continue;
-                        }
-                    else
-                    {
-                            myNode.NavigateUrl = "../ArticlesManage/Default.aspx?codeNo=" + dr["codeNo"];
-                        }
+                        myNode.NavigateUrl = "../ArticlesManage/Default.aspx?codeNo=" + dr["codeNo"];
                     }
+                }
                 //}
             }
             else

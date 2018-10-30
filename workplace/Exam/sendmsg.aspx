@@ -1,0 +1,1 @@
+﻿<%@ Page Language="C#" AutoEventWireup="true" CodeFile="sendmsg.aspx.cs" Inherits="Exam_sendmsg" %>

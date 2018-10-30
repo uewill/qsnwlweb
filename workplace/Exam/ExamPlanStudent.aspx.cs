@@ -22,15 +22,16 @@ public partial class Exam_ExamPlanStudent : System.Web.UI.Page
         testCenterName = auth.KDName;
         if (!IsPostBack)
         {
-            int exid = 0;
-            if (int.TryParse(Request.QueryString["id"] + "", out exid) && exid > 0)
-            {
-                InitData(exid);
-            }
-            else
-            {
-                Response.Redirect("ExamPlanList.aspx");
-            }
+
+        }
+        int exid = 0;
+        if (int.TryParse(Request.QueryString["id"] + "", out exid) && exid > 0)
+        {
+            InitData(exid);
+        }
+        else
+        {
+            Response.Redirect("ExamPlanList.aspx");
         }
     }
 
@@ -106,6 +107,82 @@ public partial class Exam_ExamPlanStudent : System.Web.UI.Page
     }
     #endregion
 
+    protected void btnImport_ServerClick(object sender, EventArgs e)
+    {
+        if (!fileImport.HasFile || fileImport.FileContent.Length == 0)
+        {
+            Jscript.Alert("请上传填写好内容的模板文件");
+            return;
+        }
+
+        string fileName = "~/uploads/file/" + DateTime.Now.ToString("yyyy-MM-ddHHmmss") + ".xls";
+        try
+        {
+            fileImport.SaveAs(Server.MapPath(fileName));
+        }
+        catch (Exception ex)
+        {
+            Response.Write("上传文件失败:" + ex.Message);
+        }
+        try
+        {
+            DataSet ds = TFXK.Common.ExcelImport.ExcelToDS(Server.MapPath(fileName));
+            if (ds != null && ds.Tables[0] != null && ds.Tables[0].Rows != null && ds.Tables[0].Rows.Count > 0)
+            {
+                int recordCount = 0;
+                foreach (DataRow dr in ds.Tables[0].Rows)
+                {
+                    TFXK.Model.TestingStudent model = new TFXK.Model.TestingStudent();
+                    model.UserName = dr[0].ToString();
+                    model.UserNamePinyin = dr[1].ToString();
+                    model.Sex = dr[2].ToString().Equals("男") ? 0 : 1;
+                    model.IDNumber = dr[3].ToString();
+                    DateTime birthday;
+                    DateTime.TryParse(dr[4] + "", out birthday);
+                    model.Birthday = birthday;
+                    var cmodel = bllCategory.GetModelByName(dr[5] + "");
+                    if (cmodel == null)
+                    {
+                        continue;
+                    }
+                    model.ClassID = cmodel.id;
+                    model.LevelNum = dr[6] + "";
+                    model.OrgLevel = dr[7] + "";
+                    var countryModel = bllCategory.GetModelByName(dr[8] + "");
+                    if (countryModel == null)
+                    {
+                        continue;
+                    }
+                    model.Country = countryModel.id + "";
+
+                    var EthnicGroupModel = bllCategory.GetModelByName(dr[9] + "");
+                    if (EthnicGroupModel == null)
+                    {
+                        continue;
+                    }
+                    model.EthnicGroup = EthnicGroupModel.id + "";
+                    model.CreateTime = DateTime.Now;
+                    model.IsPass = 0;
+                    model.PlanID = Int32.Parse(Request.QueryString["id"]);
+                    model.Score = 0;
+                    model.UserHeadImage = "";
+                    model.UserWorkImage = "";
+                    recordCount++;
+                    bllTestingStudent.Add(model);
+                }
+                Jscript.Alert("已提交数据" + recordCount + "条");
+            }
+            else
+            {
+                Jscript.Alert("没有读取到数据");
+            }
+
+        }
+        catch (Exception ex)
+        {
+            Jscript.Alert("读取导入数据错误:" + ex.Message);
+        }
+    }
 
     protected void btnSave_ServerClick(object sender, EventArgs e)
     {

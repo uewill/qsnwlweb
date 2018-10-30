@@ -147,6 +147,9 @@
     <Compile Include="RoleDAL.cs" />
     <Compile Include="SiteConfigDAL.cs" />
     <Compile Include="TestingCenter.cs" />
+    <Compile Include="TestingPerson.cs" />
+    <Compile Include="TestingPersonExam.cs" />
+    <Compile Include="TestingPersonPlan.cs" />
     <Compile Include="TestingPlan.cs" />
     <Compile Include="TestingStudent.cs" />
     <Compile Include="UserOrdersDAL.cs" />

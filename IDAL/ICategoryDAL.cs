@@ -79,10 +79,11 @@ namespace TFXK.IDAL
         /// </summary>
         TFXK.Model.Category GetModel(int id);
 
-          /// <summary>
+        /// <summary>
         /// 得到一个对象实体
         /// </summary>
-         TFXK.Model.Category GetModel(string code);
+        TFXK.Model.Category GetModel(string code);
+        TFXK.Model.Category GetModelByName(string title);
 
         /// <summary>
         /// 获得数据列表

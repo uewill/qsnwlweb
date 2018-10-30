@@ -14,17 +14,31 @@
                 <uc1:LeftNavControl runat="server" ID="LeftNavControl" />
             </div>
             <div class="col-xs-9" style="padding-right: 0px;">
-                <div class="col-md-12">
+               <div class="col-md-12" style="padding-right: 0px;">
                     <uc1:LocationControl runat="server" ID="LocationControl" />
+                </div>
+                <div class="col-md-12">
                     <div class="row">
+                        <div class="col-md-12">
+                            <div class="col-md-12 sublinklist">
+                                <ul>
+                                    <li><a href="PicList.aspx?code=<%= Request.QueryString["code"]%>" <%=GetSubActive("") %>>全部</a></li>
+                                    <asp:Repeater ID="rptSubCategory" runat="server">
+                                        <ItemTemplate>
+                                            <li><a href="PicList.aspx?code=<%= Request.QueryString["code"]%>&subcode=<%#Eval("codeno") %>" <%# GetSubActive(Eval("codeno")+"") %>><%#Eval("title") %></a></li>
+                                        </ItemTemplate>
+                                    </asp:Repeater>
+                                </ul>
+                            </div>
+                        </div>
                         <div class="col-md-12">
                             <asp:Repeater ID="rptDataList" runat="server">
                                 <ItemTemplate>
                                     <div class="col-sm-4 col-md-3" style="margin-top: 10px;">
                                         <a href="ArticalDetails.aspx?id=<%#Eval("id") %>" target="_blank" title="<%#Eval("title") %>">
                                             <div class="thumbnail">
-                                                <img src="/uploads/<%#Eval("imgPath") %>" style="height:200px;" title="<%#Eval("title") %>">
-                                                <div class="caption" style="overflow: hidden; height:40px;">
+                                                <img src="/uploads/<%#Eval("imgPath") %>" style="height: 200px;" title="<%#Eval("title") %>">
+                                                <div class="caption" style="overflow: hidden; height: 60px;">
                                                     <h5 class=" text-center"><%#Eval("title") %></h5>
                                                 </div>
                                             </div>
@@ -35,34 +49,34 @@
                         </div>
                     </div>
 
-                    <div class="row">
-                        <div class="col-md-12">
-                            <div class="page">
-                                <webdiyer:AspNetPager CssClass="paginator" CurrentPageButtonClass="cpb" ID="AspNetPager1"
-                                    HorizontalAlign="Left" runat="server" AlwaysShow="false" FirstPageText="首页" Font-Size="12px"
-                                    LastPageText="尾页" NextPageText="下一页" PageSize="12" PrevPageText="上一页" ShowBoxThreshold="11"
-                                    TextAfterPageIndexBox="" TextBeforePageIndexBox="" UrlPaging="true" CustomInfoTextAlign="Right"
-                                    ShowCustomInfoSection="Left" OnPageChanging="AspNetPager1_PageChanging">
-                                </webdiyer:AspNetPager>
-                            </div>
+                <div class="row">
+                    <div class="col-md-12">
+                        <div class="page">
+                            <webdiyer:AspNetPager CssClass="paginator" CurrentPageButtonClass="cpb" ID="AspNetPager1"
+                                HorizontalAlign="Left" runat="server" AlwaysShow="false" FirstPageText="首页" Font-Size="12px"
+                                LastPageText="尾页" NextPageText="下一页" PageSize="12" PrevPageText="上一页" ShowBoxThreshold="11"
+                                TextAfterPageIndexBox="" TextBeforePageIndexBox="" UrlPaging="true" CustomInfoTextAlign="Right"
+                                ShowCustomInfoSection="Left" OnPageChanging="AspNetPager1_PageChanging">
+                            </webdiyer:AspNetPager>
                         </div>
                     </div>
-                    <div class="col-md-12 text-right" style="margin-top: 30px; margin-bottom: 30px; height: 30px;">
-                        <!-- JiaThis Button BEGIN -->
-                        <div class="jiathis_style_32x32" style="float: right;">
-                            <a class="jiathis_button_qzone"></a>
-                            <a class="jiathis_button_tsina"></a>
-                            <a class="jiathis_button_weixin"></a>
-                            <a class="jiathis_button_cqq"></a>
-                            <a class="jiathis_button_copy"></a>
-                            <a href="http://www.jiathis.com/share" class="jiathis jiathis_txt jtico jtico_jiathis" target="_blank"></a>
-                        </div>
-                        <script type="text/javascript" src="http://v3.jiathis.com/code_mini/jia.js" charset="utf-8"></script>
-                        <!-- JiaThis Button END -->
+                </div>
+                <div class="col-md-12 text-right" style="margin-top: 30px; margin-bottom: 30px; height: 30px;">
+                    <!-- JiaThis Button BEGIN -->
+                    <div class="jiathis_style_32x32" style="float: right;">
+                        <a class="jiathis_button_qzone"></a>
+                        <a class="jiathis_button_tsina"></a>
+                        <a class="jiathis_button_weixin"></a>
+                        <a class="jiathis_button_cqq"></a>
+                        <a class="jiathis_button_copy"></a>
+                        <a href="http://www.jiathis.com/share" class="jiathis jiathis_txt jtico jtico_jiathis" target="_blank"></a>
                     </div>
+                    <script type="text/javascript" src="http://v3.jiathis.com/code_mini/jia.js" charset="utf-8"></script>
+                    <!-- JiaThis Button END -->
                 </div>
             </div>
         </div>
+    </div>
     </div>
 
 </asp:Content>

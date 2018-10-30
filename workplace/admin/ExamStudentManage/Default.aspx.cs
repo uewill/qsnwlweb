@@ -19,6 +19,7 @@ public partial class admin_ExamStudentManage_Default : BasePage
 {
     private static readonly ILog log = LogManager.GetLogger(typeof(admin_ExamStudentManage_Default));
     private static readonly TFXK.BLL.TestingStudent bll = new TFXK.BLL.TestingStudent();
+    private static readonly TFXK.BLL.TestingPlan bllPlan = new TFXK.BLL.TestingPlan();
     private static readonly CategoryBLL cbll = new CategoryBLL();
 
     public DataSet ds = new DataSet();
@@ -211,6 +212,46 @@ public partial class admin_ExamStudentManage_Default : BasePage
         int row = 0;
         int pid = Int32.Parse(Server.UrlDecode(StringUtil.HtmlEncode(Request.QueryString["id"])));
         var dss = bll.GetList(100, 1, "planid=" + pid, out row);
-        Export.CreateExcel(this.Context, dss.Tables[0], "考生信息-" + DateTime.Now.ToString());
+
+        DataTable dt = dss.Tables[0];
+
+        DataTable newdt = new DataTable();
+        newdt.Columns.Add("序号");
+        newdt.Columns.Add("计划");
+        newdt.Columns.Add("类型");
+        newdt.Columns.Add("原有等级");
+        newdt.Columns.Add("报考等级");
+        newdt.Columns.Add("姓名");
+        newdt.Columns.Add("拼音");
+        newdt.Columns.Add("身份证号码");
+        newdt.Columns.Add("性别");
+        newdt.Columns.Add("国家");
+        newdt.Columns.Add("民族");
+        newdt.Columns.Add("生日");
+        newdt.Columns.Add("创建时间");
+
+        foreach (DataRow itemdr in dt.Rows) {
+
+            DataRow newItemDR = newdt.NewRow();
+            newItemDR["序号"] = itemdr["id"] + "";
+            newItemDR["计划"] = bllPlan.GetModel(int.Parse(itemdr["PlanID"] + "")).TestingTime;
+            newItemDR["类型"] = cbll.GetModel( int.Parse(itemdr["ClassID"] + "")).title;
+            newItemDR["原有等级"] = itemdr["OrgLevel"] + "";
+            newItemDR["报考等级"] = itemdr["LevelNum"] + "";
+            newItemDR["姓名"] = itemdr["UserName"] + "";
+            newItemDR["拼音"] = itemdr["UserNamePinyin"] + "";
+            newItemDR["身份证号码"] = "'"+itemdr["IDNumber"] + "";
+            newItemDR["性别"] = itemdr["Sex"].ToString().Equals("0")?"男":"女";
+            newItemDR["国家"] =cbll.GetModel(int.Parse(itemdr["Country"] + "")).title;
+            newItemDR["民族"] = cbll.GetModel(int.Parse(itemdr["EthnicGroup"] + "")).title;
+            newItemDR["生日"] = itemdr["Birthday"] + "";
+            newItemDR["创建时间"] = itemdr["CreateTime"] + "";
+            newdt.Rows.Add(newItemDR);
+
+        }
+
+
+        
+        Export.CreateExcel(this.Context, newdt, "考生信息-" + DateTime.Now.ToString());
     }
 }

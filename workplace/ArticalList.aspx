@@ -14,7 +14,7 @@
                 <uc1:LeftNavControl runat="server" ID="LeftNavControl" />
             </div>
             <div class="col-xs-9" style="padding-right: 0px;">
-                <div class="col-md-12">
+                <div class="col-md-12" >
                     <uc1:LocationControl runat="server" ID="LocationControl" />
                     <div class="row">
                         <div class="col-md-12">

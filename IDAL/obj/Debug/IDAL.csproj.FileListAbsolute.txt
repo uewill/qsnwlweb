@@ -150,3 +150,12 @@ D:\Works\kaojiweb\IDAL\obj\Debug\IDAL.csproj.CoreCompileInputs.cache
 D:\Works\kaojiweb\IDAL\obj\Debug\IDAL.csproj.CopyComplete
 D:\Works\kaojiweb\IDAL\obj\Debug\CodematicDemo.IDAL.dll
 D:\Works\kaojiweb\IDAL\obj\Debug\CodematicDemo.IDAL.pdb
+D:\Works\GitWorks\hwbkj\gmkaojiweb\IDAL\bin\Debug\CodematicDemo.IDAL.dll
+D:\Works\GitWorks\hwbkj\gmkaojiweb\IDAL\bin\Debug\CodematicDemo.IDAL.pdb
+D:\Works\GitWorks\hwbkj\gmkaojiweb\IDAL\bin\Debug\TFXK.Model.dll
+D:\Works\GitWorks\hwbkj\gmkaojiweb\IDAL\bin\Debug\TFXK.Model.pdb
+D:\Works\GitWorks\hwbkj\gmkaojiweb\IDAL\obj\Debug\IDAL.csprojResolveAssemblyReference.cache
+D:\Works\GitWorks\hwbkj\gmkaojiweb\IDAL\obj\Debug\IDAL.csproj.CoreCompileInputs.cache
+D:\Works\GitWorks\hwbkj\gmkaojiweb\IDAL\obj\Debug\IDAL.csproj.CopyComplete
+D:\Works\GitWorks\hwbkj\gmkaojiweb\IDAL\obj\Debug\CodematicDemo.IDAL.dll
+D:\Works\GitWorks\hwbkj\gmkaojiweb\IDAL\obj\Debug\CodematicDemo.IDAL.pdb

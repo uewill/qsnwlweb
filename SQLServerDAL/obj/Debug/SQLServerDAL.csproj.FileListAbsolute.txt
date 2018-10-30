@@ -219,3 +219,17 @@ D:\Works\kaojiweb\SQLServerDAL\obj\Debug\SQLServerDAL.csproj.CoreCompileInputs.c
 D:\Works\kaojiweb\SQLServerDAL\obj\Debug\SQLServerDAL.csproj.CopyComplete
 D:\Works\kaojiweb\SQLServerDAL\obj\Debug\TFXK.SQLServerDAL.dll
 D:\Works\kaojiweb\SQLServerDAL\obj\Debug\TFXK.SQLServerDAL.pdb
+D:\Works\GitWorks\hwbkj\gmkaojiweb\SQLServerDAL\bin\Debug\TFXK.SQLServerDAL.dll
+D:\Works\GitWorks\hwbkj\gmkaojiweb\SQLServerDAL\bin\Debug\TFXK.SQLServerDAL.pdb
+D:\Works\GitWorks\hwbkj\gmkaojiweb\SQLServerDAL\bin\Debug\CodematicDemo.IDAL.dll
+D:\Works\GitWorks\hwbkj\gmkaojiweb\SQLServerDAL\bin\Debug\LTP.Common.dll
+D:\Works\GitWorks\hwbkj\gmkaojiweb\SQLServerDAL\bin\Debug\TFXK.DBUtility.dll
+D:\Works\GitWorks\hwbkj\gmkaojiweb\SQLServerDAL\bin\Debug\TFXK.Model.dll
+D:\Works\GitWorks\hwbkj\gmkaojiweb\SQLServerDAL\bin\Debug\TFXK.DBUtility.pdb
+D:\Works\GitWorks\hwbkj\gmkaojiweb\SQLServerDAL\bin\Debug\CodematicDemo.IDAL.pdb
+D:\Works\GitWorks\hwbkj\gmkaojiweb\SQLServerDAL\bin\Debug\TFXK.Model.pdb
+D:\Works\GitWorks\hwbkj\gmkaojiweb\SQLServerDAL\obj\Debug\SQLServerDAL.csprojResolveAssemblyReference.cache
+D:\Works\GitWorks\hwbkj\gmkaojiweb\SQLServerDAL\obj\Debug\SQLServerDAL.csproj.CoreCompileInputs.cache
+D:\Works\GitWorks\hwbkj\gmkaojiweb\SQLServerDAL\obj\Debug\SQLServerDAL.csproj.CopyComplete
+D:\Works\GitWorks\hwbkj\gmkaojiweb\SQLServerDAL\obj\Debug\TFXK.SQLServerDAL.dll
+D:\Works\GitWorks\hwbkj\gmkaojiweb\SQLServerDAL\obj\Debug\TFXK.SQLServerDAL.pdb

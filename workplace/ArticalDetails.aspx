@@ -17,7 +17,7 @@
                     <uc1:LocationControl runat="server" ID="LocationControl" />
                 </div>
                 <div class="col-md-12">
-                    <div class="row" style="clear: both;">
+                    <div class="row" style="clear: both; margin-top:15px; margin-bottom:10px;">
                         <div class="col-xs-12 text-center">
                             <h4><%=articles.title %></h4>
                         </div>
@@ -25,7 +25,7 @@
                     </div>
                     <div class="row">
                         <div class="col-xs-12 text-center">
-                            发布时间：<%= articles.createTime%>  来源：<%=articles.publisher %>  点击量:<%=articles.clicks %>次
+                            发布时间：<%= articles.createTime.Value.ToString("yyyy-MM-dd")%>  来源：<%=articles.publisher %>
                         </div>
                     </div>
 

@@ -105,3 +105,9 @@ D:\Works\kaojiweb\Model\bin\Debug\TFXK.Model.pdb
 D:\Works\kaojiweb\Model\obj\Debug\Model.csproj.CoreCompileInputs.cache
 D:\Works\kaojiweb\Model\obj\Debug\TFXK.Model.dll
 D:\Works\kaojiweb\Model\obj\Debug\TFXK.Model.pdb
+D:\Works\kaojiweb\Model\obj\Debug\Model.csprojResolveAssemblyReference.cache
+D:\Works\GitWorks\hwbkj\gmkaojiweb\Model\bin\Debug\TFXK.Model.dll
+D:\Works\GitWorks\hwbkj\gmkaojiweb\Model\bin\Debug\TFXK.Model.pdb
+D:\Works\GitWorks\hwbkj\gmkaojiweb\Model\obj\Debug\Model.csproj.CoreCompileInputs.cache
+D:\Works\GitWorks\hwbkj\gmkaojiweb\Model\obj\Debug\TFXK.Model.dll
+D:\Works\GitWorks\hwbkj\gmkaojiweb\Model\obj\Debug\TFXK.Model.pdb

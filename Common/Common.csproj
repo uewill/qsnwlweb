@@ -67,6 +67,7 @@
     <Compile Include="CheckForm.cs" />
     <Compile Include="Common.cs" />
     <Compile Include="DataToJson.cs" />
+    <Compile Include="ExcelImport.cs" />
     <Compile Include="Export.cs" />
     <Compile Include="Jscript.cs" />
     <Compile Include="Msg.cs" />

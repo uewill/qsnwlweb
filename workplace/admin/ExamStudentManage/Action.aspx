@@ -9,6 +9,7 @@
 <%@ Register Assembly="DevExpress.Web.ASPxEditors.v9.2, Version=9.2.9.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a"
     Namespace="DevExpress.Web.ASPxEditors" TagPrefix="dxe" %>
 <%@ Register Assembly="CuteEditor" Namespace="CuteEditor" TagPrefix="CE" %>
+<%@ Register TagPrefix="dxrp" Namespace="DevExpress.Web.ASPxRoundPanel" Assembly="DevExpress.Web.v9.2" %>
 <asp:Content ID="Content1" ContentPlaceHolderID="ContentPlaceHolder1" runat="Server">
         <script src="../../Kinde/kindeditor.js" type="text/javascript"></script>
 

@@ -11,16 +11,22 @@
     <meta name="keywords" <%="content=\""+model.mata+"\"" %> />
     <meta name="description" <%="content=\""+model.description+"\"" %> />
     <script src="/Scripts/modernizr-2.6.2.js"></script>
-    <link href="/Content/bootstrap.css" rel="stylesheet" />
-    <link href="/Content/Site.css" rel="stylesheet" />
+<%--    <link href="/Content/bootstrap.css" rel="stylesheet" />
+    <link href="/Content/Site.css" rel="stylesheet" />--%>
     <link href="~/favicon.ico" rel="shortcut icon" type="image/x-icon" />
+
+   <link rel="stylesheet" href="https://cdn.bootcss.com/bootstrap/3.3.7/css/bootstrap.min.css" />
+   <link href="/Content/Site.css" rel="stylesheet" />
+    <script src="https://cdn.bootcss.com/jquery/1.12.4/jquery.min.js"></script>
+    <!-- 最新的 Bootstrap 核心 JavaScript 文件 -->
+    <script src="https://cdn.bootcss.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+    <link rel="stylesheet" type="text/css" href="./content/iconfont.css">
 </head>
 <body>
     <form runat="server">
         <div class="container">
-            <div class="row" style="float: left; padding-top: 10px; margin-bottom: 10px;">
-                <img src="/images/logo.jpg" height="80" />
-                <img src="/images/logo2.png" height="48" />
+            <div class="row" style="float: left; ">
+                <img src="/images/logo.png"  class="img-responsive"  />
             </div>
         </div>
         <div class="navbar navbar-inverse" style="border-radius: 0px; border: 0px; margin-bottom: -1px;">
@@ -35,22 +41,85 @@
                 <div class="navbar-collapse collapse" style="margin-left: -15px;">
                     <ul class="nav navbar-nav">
                         <li id="navHome"><a runat="server" href="~/">首页</a></li>
-                        <li id="navNews"><a href="ArticalList.aspx?code=zxdt">最新动态</a></li>
+                       <%-- <li id="navNews"><a href="ArticalList.aspx?code=zxdt">最新动态</a></li>--%>
+                         <li id="navNews" class="dropdown">
+                            <a href="ArticalList.aspx?code=zxdt" class="dropdown-toggle" data-toggle="dropdown" role="tooltip" aria-haspopup="true" aria-expanded="false">最新动态 <span class="caret"></span></a>
+                            <ul class="dropdown-menu">
+                              <asp:Repeater ID="rptNavNews" runat="server">
+                                  <ItemTemplate>
+                                       <li><a href="<%#GetNavLink(Eval("codeNo"),Eval("typeid")) %>"><%#Eval("title") %></a></li>
+                                  </ItemTemplate>
+                              </asp:Repeater>
+                            </ul>
+                        </li>
                         <li id="navXGWJ"><a href="ArticalList.aspx?code=xgwj">相关文件</a></li>
                         <li id="navXZZQ"><a href="ArticalList.aspx?code=xzzq">下载专区</a></li>
+                        <li id="navDQTK2" class="dropdown">
+                            <a href="ArticalList.aspx?code=dqtk2" class="dropdown-toggle" data-toggle="dropdown" role="tooltip" aria-haspopup="true" aria-expanded="false">地区统考 <span class="caret"></span></a>
+                            <ul class="dropdown-menu">
+                              <asp:Repeater ID="rptdqtk" runat="server">
+                                  <ItemTemplate>
+                                       <li><a href="<%#GetNavLink(Eval("codeNo"),Eval("typeid")) %>"><%#Eval("title") %></a></li>
+                                  </ItemTemplate>
+                              </asp:Repeater>
+                            </ul>
+                        </li>
                         <li id="navKJBZ"><a href="ArticalList.aspx?code=kjbz">考级标准</a></li>
                         <li id="navKDML"><a href="ArticalList.aspx?code=kdml">考点名录</a></li>
-                        <li id="navDQTK"><a href="ArticalList.aspx?code=dqtk">地区统考</a></li>
-                        <li id="navZPZS"><a href="PicList.aspx?code=zpzs">作品展示</a></li>
+                   <%--     <li id="navDQTK"><a href="ArticalList.aspx?code=dqtk">承办单位</a></li>--%>
+                            <li id="navZPZS" class="dropdown">
+                            <a href="PicList.aspx?code=zpzs" class="dropdown-toggle" data-toggle="dropdown" role="tooltip" aria-haspopup="true" aria-expanded="false">作品展示 <span class="caret"></span></a>
+                            <ul class="dropdown-menu">
+                              <asp:Repeater ID="rptzpzs" runat="server">
+                                  <ItemTemplate>
+                                       <li><a href="<%#GetNavLink(Eval("codeNo"),Eval("typeid")) %>"><%#Eval("title") %></a></li>
+                                  </ItemTemplate>
+                              </asp:Repeater>
+                            </ul>
+                        </li>
+
                         <li id="navKJJC"><a href="ArticalList.aspx?code=kjjc">考级教材</a></li>
                         <li id="navContact"><a href="About.aspx?code=cjcx">成绩查询</a></li>
-                        <li id="navAbout"><a href="About.aspx">联系我们</a></li>
+                     <%--   <li id="navAbout"><a href="About.aspx?code=lxwm">联系我们</a></li>--%>
+                          <li id="navAbout" class="dropdown">
+                            <a href="About.aspx?code=lxwm" class="dropdown-toggle" role="tooltip" aria-haspopup="true" aria-expanded="false">联系我们 <span class="caret"></span></a>
+                            <ul class="dropdown-menu">
+                              <asp:Repeater ID="rptLXWM" runat="server">
+                                  <ItemTemplate>
+                                       <li><a href="<%#GetNavLink(Eval("codeNo"),Eval("typeid")) %>"><%#Eval("title") %></a></li>
+                                  </ItemTemplate>
+                              </asp:Repeater>
+                            </ul>
+                        </li>
                     </ul>
                 </div>
             </div>
         </div>
-        <div class="banner" style="border-radius: 0px; border: 0px; margin-bottom: -1px; height: 440px; overflow: hidden; margin: auto; width: 100%;">
-            <a href="#" class="d1" style="background: url(images/bg.jpg) center no-repeat;"></a>
+        <div class="row" style="margin-bottom: 10px; margin-left: 0px; text-align: center; margin-right: 0px; display: <%=isShowAd%>">
+            <div id="carousel-example-generic2" class="carousel slide" data-ride="carousel">
+                <!-- Wrapper for slides -->
+                <div class="carousel-inner" role="listbox">
+                    <asp:Repeater ID="rptSYGG" runat="server">
+                        <ItemTemplate>
+                            <div class="item<%#Container.ItemIndex==0?" active":"" %>">
+                                <div class="row" style="height: 450px; margin-left: 0px; text-align: center; margin-right: 0px; background-image: url('/uploads/<%#Eval("imgPath") %>'); background-size: cover; -webkit-background-size: cover; -moz-background-size: cover; display: <%=isShowAd%>">
+                                </div>
+                            </div>
+                        </ItemTemplate>
+                    </asp:Repeater>
+                </div>
+
+                <!-- Controls -->
+                <a class="left carousel-control" href="#carousel-example-generic2" role="button" data-slide="prev">
+                    <span class="glyphicon glyphicon-menu-left" style="top: 50%;" aria-hidden="true"></span>
+                    <span class="sr-only">上一张</span>
+                </a>
+                <a class="right carousel-control" href="#carousel-example-generic2" role="button" data-slide="next">
+                    <span class="glyphicon glyphicon-menu-right" style="top: 50%;" aria-hidden="true"></span>
+                    <span class="sr-only">下一张</span>
+                </a>
+            </div>
+
         </div>
         <div class="container body-content" style="margin-top: 10px;">
             <asp:ContentPlaceHolder ID="MainContent" runat="server">
@@ -75,8 +144,71 @@
             </div>
         </div>
 
+                <div class="suspension">
+            <div class="suspension-box">
+                <a href="Exam/Login.aspx" title="登录考区" class="a a-service-phone "><i class="icon iconfont icon-staff"></i><span class="righttext">登录</span></a>
+                <a href="http://139.129.220.45" title="查询成绩" class="a a-cart"><i class="icon iconfont icon-magnifier"></i><span class="righttext">成绩</span></a>
+                <a href="javascript:;" class="a a-qrcode"><i class="icon iconfont icon-wechat"></i><span class="righttext">关注</span></a>
+                <a href="Message.aspx" title="在线留言" class="a a-service"><i class="icon iconfont icon-dialog"></i><span class="righttext">留言</span></a>
+                <a href="javascript:;" class="a a-top"><i class="i"></i></a>
+                <div class="d d-qrcode">
+                    <i class="arrow"></i>
+                    <div class="inner-box">
+                        <div class="qrcode-img">
+                            <img src="/images/wx_logo.jpg" width="180" height="180" alt="">
+                        </div>
+                        <p>微信服务号</p>
+                    </div>
+                </div>
+
+            </div>
+        </div>
     </form>
-    <script src="https://cdn.bootcss.com/jquery/1.12.4/jquery.min.js"></script>
     <asp:ContentPlaceHolder ID="ScriptContent" runat="server"></asp:ContentPlaceHolder>
+ <script>
+        $(document).ready(function () {
+            $('#carousel-example-generic2').carousel();
+             var $dropdownLi = $('li.dropdown');
+ 
+             $dropdownLi.mouseover(function() {
+             $(this).addClass('open');
+             }).mouseout(function() {
+             $(this).removeClass('open');
+                });
+
+            
+            /* ----- 侧边悬浮 ---- */
+            $(document).on("mouseenter", ".suspension .a", function () {
+                var _this = $(this);
+                var s = $(".suspension");
+                var isService = _this.hasClass("a-service");
+                var isServicePhone = _this.hasClass("a-service-phone");
+                var isQrcode = _this.hasClass("a-qrcode");
+                if (isService) { s.find(".d-service").show().siblings(".d").hide(); }
+                if (isServicePhone) { s.find(".d-service-phone").show().siblings(".d").hide(); }
+                if (isQrcode) { s.find(".d-qrcode").show().siblings(".d").hide(); }
+            });
+            $(document).on("mouseleave", ".suspension, .suspension .a-top", function () {
+                $(".suspension").find(".d").hide();
+            });
+            $(document).on("mouseenter", ".suspension .a-top", function () {
+                $(".suspension").find(".d").hide();
+            });
+            $(document).on("click", ".suspension .a-top", function () {
+                $("html,body").animate({ scrollTop: 0 });
+            });
+            $(window).scroll(function () {
+                var st = $(document).scrollTop();
+                var $top = $(".suspension .a-top");
+                if (st > 400) {
+                    $top.css({ display: 'block' });
+                } else {
+                    if ($top.is(":visible")) {
+                        $top.hide();
+                    }
+                }
+            });
+        });
+    </script>
 </body>
 </html>

@@ -143,6 +143,10 @@ namespace TFXK.BLL
         {
             return dal.GetModel(code);
         }
+        public TFXK.Model.Category GetModelByName(string title)
+        {
+            return dal.GetModelByName(title);
+        }
 
         /// <summary>
         /// 获得数据列表

@@ -192,3 +192,14 @@ D:\Works\kaojiweb\DALFactory\obj\Debug\DALFactory.csproj.CoreCompileInputs.cache
 D:\Works\kaojiweb\DALFactory\obj\Debug\DALFactory.csproj.CopyComplete
 D:\Works\kaojiweb\DALFactory\obj\Debug\TFXK.DALFactory.dll
 D:\Works\kaojiweb\DALFactory\obj\Debug\TFXK.DALFactory.pdb
+D:\Works\GitWorks\hwbkj\gmkaojiweb\DALFactory\bin\Debug\TFXK.DALFactory.dll
+D:\Works\GitWorks\hwbkj\gmkaojiweb\DALFactory\bin\Debug\TFXK.DALFactory.pdb
+D:\Works\GitWorks\hwbkj\gmkaojiweb\DALFactory\bin\Debug\CodematicDemo.IDAL.dll
+D:\Works\GitWorks\hwbkj\gmkaojiweb\DALFactory\bin\Debug\TFXK.Model.dll
+D:\Works\GitWorks\hwbkj\gmkaojiweb\DALFactory\bin\Debug\CodematicDemo.IDAL.pdb
+D:\Works\GitWorks\hwbkj\gmkaojiweb\DALFactory\bin\Debug\TFXK.Model.pdb
+D:\Works\GitWorks\hwbkj\gmkaojiweb\DALFactory\obj\Debug\DALFactory.csprojResolveAssemblyReference.cache
+D:\Works\GitWorks\hwbkj\gmkaojiweb\DALFactory\obj\Debug\DALFactory.csproj.CoreCompileInputs.cache
+D:\Works\GitWorks\hwbkj\gmkaojiweb\DALFactory\obj\Debug\DALFactory.csproj.CopyComplete
+D:\Works\GitWorks\hwbkj\gmkaojiweb\DALFactory\obj\Debug\TFXK.DALFactory.dll
+D:\Works\GitWorks\hwbkj\gmkaojiweb\DALFactory\obj\Debug\TFXK.DALFactory.pdb

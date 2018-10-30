@@ -39,7 +39,7 @@
         <div class="col-lg-12">
             <h1 class="page-header">报名安排</h1>
         </div>
-        <div class="col-xs-12">
+        <div class="col-md-12">
         </div>
         <!-- /.col-lg-12 -->
     </div>
@@ -59,7 +59,7 @@
                 <form role="form" runat="server">
                     <div class="panel-body" id="panelAdd" runat="server">
                         <div class="row">
-                            <div class="col-xs-6">
+                            <div class="col-md-6">
                                 <div class="form-group">
                                     <label>考点名称</label>
                                     <p class="form-control-static"><%=testCenterName %></p>
@@ -67,14 +67,14 @@
                             </div>
                         </div>
                         <div class="row">
-                            <div class="col-xs-6">
+                            <div class="col-md-6">
                                 <div class="form-group">
                                     <label>考试时间 <span style="color: red">*</span></label>
                                     <input class="form-control" id="txtTime" runat="server" required placeholder="考试时间">
                                     <p class="form-control-static" style="color: #777">例：2018年6月2日 星期六 上午9点至12点结束</p>
                                 </div>
                             </div>
-                            <div class="col-xs-6">
+                            <div class="col-md-6">
                                 <div class="form-group">
                                     <label>考试科目 <span style="color: red">*</span></label>
                                     <input class="form-control" id="txtClass" runat="server" required placeholder="考试科目">
@@ -83,14 +83,14 @@
                             </div>
                         </div>
                         <div class="row">
-                            <div class="col-xs-6">
+                            <div class="col-md-6">
                                 <div class="form-group">
                                     <label>考试地点 <span style="color: red">*</span></label>
                                     <input class="form-control" id="txtAddress" runat="server" required placeholder="考试地点">
                                     <p class="form-control-static" style="color: #777">例：成都市武侯区xx路xx号xx室</p>
                                 </div>
                             </div>
-                            <div class="col-xs-6">
+                            <div class="col-md-6">
                                 <div class="form-group">
                                     <label>乘车线路 <span style="color: red">*</span></label>
                                     <input class="form-control" id="txtRoad" runat="server" required placeholder="乘车线路">
@@ -98,7 +98,7 @@
                             </div>
                         </div>
                         <div class="row">
-                            <div class="col-xs-6">
+                            <div class="col-md-6">
                                 <div class="form-group">
                                     <label>联系信息 <span style="color: red">*</span></label>
                                     <input class="form-control" id="txtContact" runat="server" required placeholder="联系信息">
@@ -118,28 +118,28 @@
 
                     <div class="panel-body" id="panelAudit" runat="server">
                         <div class="row">
-                            <div class="col-xs-12">
+                            <div class="col-md-12">
                                 <%=auditMsg %>
                             </div>
                         </div>
                     </div>
                     <div class="panel-body" id="panelNotice" runat="server">
                         <div class="row">
-                            <div class="col-xs-12">
+                            <div class="col-md-12">
                                 <%=noticeMsg %>
                             </div>
                         </div>
                     </div>
                     <div class="panel-body" id="panelPay" runat="server">
                         <div class="row">
-                            <div class="col-xs-12">
+                            <div class="col-md-12">
                                 <%=payMsg %>
                             </div>
                         </div>
                     </div>
                     <div class="panel-body" id="panelGet" runat="server">
                         <div class="row">
-                            <div class="col-xs-12">
+                            <div class="col-md-12">
                                 <%=getMsg %>
                             </div>
                         </div>

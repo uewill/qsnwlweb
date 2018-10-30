@@ -13,6 +13,8 @@ public partial class PicList : System.Web.UI.Page
     public TFXK.Model.Category currentCategory = new TFXK.Model.Category();
     public TFXK.Model.Category parentCategory = new TFXK.Model.Category();
     public string activeNav = "navHome";
+
+
     protected void Page_Load(object sender, EventArgs e)
     {
         if (!IsPostBack)
@@ -38,13 +40,15 @@ public partial class PicList : System.Web.UI.Page
 
                     LeftNavControl.navTitle = parentCategory.title;
                     Page.Title = currentCategory.title + "-" + parentCategory.title;
-
                 }
                 else
                 {
                     LeftNavControl.navTitle = currentCategory.title;
                     Page.Title = currentCategory.title;
                 }
+
+                rptSubCategory.DataSource = bllCategory.GetNextNodeByCode(currentCategory.codeNo);
+                rptSubCategory.DataBind();
             }
             else
             {
@@ -52,6 +56,24 @@ public partial class PicList : System.Web.UI.Page
             }
         }
     }
+
+    public string GetSubActive(string subcode)
+    {
+        var subid = Request.QueryString["subcode"] + "";
+        if (string.IsNullOrEmpty(subid))
+        {
+            if (string.IsNullOrEmpty(subcode))
+            {
+                return " class=\"active\" ";
+            }
+        }
+        else if (subid.Equals(subcode))
+        {
+            return " class=\"active\" ";
+        }
+        return string.Empty;
+    }
+
     #region 分页绑定
     private void InitData(int PageIndex, string codeNo)
     {
@@ -71,9 +93,16 @@ public partial class PicList : System.Web.UI.Page
     {
         if (!Page.IsPostBack)
         {
+
             string code = QueryStringHelper.GetString("code");
-            if (!string.IsNullOrEmpty(code))
+            string subcode = QueryStringHelper.GetString("subcode");
+
+            if (!string.IsNullOrEmpty(subcode))
             {
+                InitData(e.NewPageIndex, subcode);
+            }
+            else if (!string.IsNullOrEmpty(code)) {
+
                 InitData(e.NewPageIndex, code);
             }
 
@@ -91,7 +120,7 @@ public partial class PicList : System.Web.UI.Page
         }
         else
         {
-           return "";
+            return "";
         }
     }
 }

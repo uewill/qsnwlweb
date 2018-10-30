@@ -155,7 +155,7 @@
 
                         </div>
 
-                        <div class="row">
+         <div class="row" style="display: none;">
                             <div class="col-xs-2">
                                 <div class="form-group">
                                     <label>考生图片 <span style="color: red">*</span></label>
@@ -181,9 +181,20 @@
                         </div>
 
                         <div class="form-group">
-                            <button style="width: 120px;" id="btnSave" runat="server" onserverclick="btnSave_ServerClick" class="btn btn-success">添加</button>
-                            <button style="width: 140px;" id="btnGoToPay" runat="server"  OnClientClick="javascript:return confirm('您确定要删除吗');" onserverclick="btnGoToPay_ServerClick" class="btn btn-danger">完成考生信息录入</button>
-                            <p class="form-control-static">完成考生信息录入后,将不能再修改考生信息</p>
+                            <button style="width: 120px;" id="btnSave" runat="server" onserverclick="btnSave_ServerClick" class="btn btn-success">添加单个信息</button></td>
+                             
+                        </div>
+                        <div class="form-group">
+                            <table style="border: 0px;">
+                                <tr> 
+                                    <td style="width:100px;"><a href="/Content/kslrmb.xls" target="_blank">下载模板</a></td>
+                                    <td>
+                                        <asp:FileUpload ID="fileImport" Width="160" runat="server" accept="application/vnd.ms-excel" /></td>
+                                    <td>
+                                        <button style="width: 120px;" id="btnImport" runat="server" onserverclick="btnImport_ServerClick" class="btn btn-primary">批量导入</button></td>
+                                   
+                                </tr>
+                            </table>
                         </div>
 
                     </div>
@@ -202,8 +213,8 @@
                                         <th class="col-xs-1">国籍/名族</th>
                                         <th class="col-xs-1">生日</th>
                                         <th class="col-xs-1">身份证号</th>
-                                        <th class="col-xs-1">照片</th>
-                                        <th class="col-xs-1">作品</th>
+                                     <%--   <th class="col-xs-1">照片</th>
+                                        <th class="col-xs-1">作品</th>--%>
                                         <th class="col-xs-1"></th>
                                     </tr>
                                 </thead>
@@ -220,12 +231,12 @@
                                                 <td><%# GetCategoryName(Eval("Country")) %>&nbsp;/&nbsp;<%# GetCategoryName(Eval("EthnicGroup")) %></td>
                                                 <td><%#Eval("Birthday","{0:yyyy/MM/dd}") %></td>
                                                 <td><%#Eval("IDNumber") %></td>
-                                                <td>
+                                               <%-- <td>
 
                                                     <img src="<%# GetImagePath(Eval("UserHeadImage")) %>" width="80" /></td>
                                                 <td>
                                                     <img src="<%# GetImagePath(Eval("UserWorkImage")) %>" width="80" />
-                                                </td>
+                                                </td>--%>
                                                 <td>
                                                     <asp:ImageButton ID="ibtnDel" CssClass="btn btn-default btn-xs" ImageUrl="../admin/images/del.gif" ToolTip="删除..." CommandName='<%# Eval("ID") %>' OnCommand="ibtnDel_OnCommand" OnClientClick="javascript:return confirm('您确定要删除吗');"
                                                         runat="server" />

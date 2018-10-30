@@ -28,24 +28,18 @@
 
     <div class="container">
         <div class="row">
-            <div class="col-xs-2"></div>
-            <div class="col-xs-8">
+   <div class="col-md-2"></div>
+            <div class="col-md-8">
 
                 <div class="jumbotron">
                     <div class="row" style="margin-bottom: 20px">
-                        <div class="col-xs-12">
-                            <table>
-                                <tr>
-                                    <td>
-                                        <img src="images/logo.png" />&nbsp;&nbsp;&nbsp;&nbsp;</td>
-                                    <td>
-                                        <h3>全国社会美术水平考级 - 成都考区</h3>
-                                    </td>
-                                </tr>
-                            </table>
-                            <h3>考点 - 等待审核</h3>
+                        <div class="col-md-4 text-center">
+                                        <img src="images/logo.png"  class="img-responsive"/></div>
+                         <div class="col-md-8">
+                                   <h4>全国社会美术水平考级 - 成都考区</h4></div>
+                                
+                            <div class="col-md-12"><h3>登录</h3></div>
                         </div>
-                    </div>
                     <form runat="server">
                         <div class="row">
                             <div class="col-xs-9">

@@ -130,6 +130,9 @@
     <Compile Include="IRoleDAL.cs" />
     <Compile Include="ISiteConfigDAL.cs" />
     <Compile Include="ITestingCenter.cs" />
+    <Compile Include="ITestingPerson.cs" />
+    <Compile Include="ITestingPersonExam.cs" />
+    <Compile Include="ITestingPersonPlan.cs" />
     <Compile Include="ITestingPlan.cs" />
     <Compile Include="ITestingStudent.cs" />
     <Compile Include="IUserOrdersDAL.cs" />
